@@ -28,6 +28,12 @@ class Counter extends Component {
         >
           Delete
         </button>
+        <button
+          className="btn btn-sm btn-outline-warning"
+          onClick={() => this.props.onReset(this.props.counter.id)}
+        >
+          Reset Value
+        </button>
       </div>
     );
   }
