@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 class Counter extends Component {
-  
   incrementer() {
     const { value } = this.props.counter;
     return value === 0 ? "Zero" : value;
@@ -16,14 +15,19 @@ class Counter extends Component {
       <div>
         <span className={this.getBadgeClass()}>{this.incrementer()}</span>
         <button
-          className="btn btn-secondary btn-sm"
+          className="btn btn-secondary btn-lr"
           onClick={() => {
             this.handleincrement({ id: 1 });
           }}
         >
           Increment
         </button>
-        <button onClick={()=>this.props.onDelete(this.props.counter.id)} className="btn btn-danger btn-sm m-2">Delete</button>
+        <button
+          onClick={() => this.props.onDelete(this.props.counter.id)}
+          className="btn btn-sm btn-danger m-2"
+        >
+          Delete
+        </button>
       </div>
     );
   }
