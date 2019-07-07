@@ -5,22 +5,30 @@ class Counter extends Component {
     return value === 0 ? "Zero" : value;
   }
 
-  handleincrement = product => {
-    console.log(product);
+  handleincrement = () => {
     this.setState({ value: (this.props.counter.value += 1) });
+  };
+  handledecrement = () => {
+    this.setState({ value: (this.props.counter.value -= 1) });
   };
 
   render() {
     return (
       <div>
+        <button
+          className="btn btn-primary"
+          onClick={() => this.handledecrement()}
+        >
+          -
+        </button>
         <span className={this.getBadgeClass()}>{this.incrementer()}</span>
         <button
-          className="btn btn-secondary btn-lr"
+          className="btn btn-primary"
           onClick={() => {
-            this.handleincrement({ id: 1 });
+            this.handleincrement();
           }}
         >
-          Increment
+          +
         </button>
         <button
           onClick={() => this.props.onDelete(this.props.counter.id)}
@@ -29,7 +37,7 @@ class Counter extends Component {
           Delete
         </button>
         <button
-          className="btn btn-sm btn-outline-warning"
+          className="btn btn-outline-warning btn-sm"
           onClick={() => this.props.onReset(this.props.counter.id)}
         >
           Reset Value
@@ -37,7 +45,6 @@ class Counter extends Component {
       </div>
     );
   }
-
   getBadgeClass() {
     let classes = "badge m-2 badge-";
     classes += this.props.counter.value === 0 ? "warning" : "primary";
