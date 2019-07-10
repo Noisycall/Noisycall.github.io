@@ -1,5 +1,7 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import Button from "@material-ui/core/Button";
+import Badge from "@material-ui/core/Badge"
+
 class Intro extends Component {
   render() {
     return (
@@ -10,10 +12,14 @@ class Intro extends Component {
               Coders Era, a place for all computerphiles to learn,improve and
               have fun!
             </h4>
-            <p className="card-text"></p>
-            <Button varient="contained" color="primary">
-              Hello
-            </Button>
+            <p className="card-text">
+              <Badge variant="dot" badgeContent={"hello there"} color="primary">
+                <Button variant="contained" color="default">
+                  Hello
+                </Button>
+              </Badge>
+
+            </p>
           </div>
         </div>
       </div>
