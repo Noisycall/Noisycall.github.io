@@ -5,7 +5,10 @@ class Header extends Component {
       <div className="card">
         <div className="card-header">
           <span className="h3">Welcome to Coders Era!</span>
-          <span className="btn-group-sm m-1 float-right" role="group">
+          <span
+            className="btn-group-sm m-1 float-right sm-float-none"
+            role="group"
+          >
             <button type="button" className="btn btn-primary">
               About
             </button>
@@ -18,7 +21,6 @@ class Header extends Component {
           </span>
         </div>
       </div>
-      
     );
   }
 }
