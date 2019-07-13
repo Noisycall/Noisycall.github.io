@@ -7,7 +7,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
-
+import Header1 from "./Header1";
 class Intro extends Component {
 
   state = {
@@ -25,6 +25,7 @@ class Intro extends Component {
   render() {
     return (
       <div>
+        <Header1/>
         <Jumbotron>
           <h1 style={{ textAlign: "center" }}>
             Welcome to Coder's Era, a place for programmers to learn and succeed
