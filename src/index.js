@@ -8,8 +8,10 @@ import Header from "./components/Header";
 import { removeDotSegments } from "uri-js";
 import Intro from "./components/Intro";
 import Header1 from "./components/Header1.tsx"
-ReactDOM.render(<Header1/>, document.getElementById("root"));
-ReactDOM.render(<Intro/>,document.getElementById("root2"));
+import Rout from "./components/Rout"
+ReactDOM.render(<Rout/>,document.getElementById("root3"));
+//ReactDOM.render(<Header1/>, document.getElementById("root"));
+//ReactDOM.render(<Intro/>,document.getElementById("root2"));
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
