@@ -4,10 +4,11 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.css";
-import Header from "./components/Header";
+import Header from "./components/Header1";
 import { removeDotSegments } from "uri-js";
 import Intro from "./components/Intro";
-ReactDOM.render(<Header/>, document.getElementById("root"));
+import Header1 from "./components/Header1.tsx"
+ReactDOM.render(<Header1/>, document.getElementById("root"));
 ReactDOM.render(<Intro/>,document.getElementById("root2"));
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

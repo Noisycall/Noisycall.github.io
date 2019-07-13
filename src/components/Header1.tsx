@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import {
   Navbar,
   Nav,
@@ -7,9 +6,9 @@ import {
   FormControl,
   Image
 } from "react-bootstrap";
-import { Button } from "react-bootstrap";
+import React, { Component } from "react";
 
-class Header extends Component {
+class Header1 extends Component {
   render() {
     return (
       <div>
@@ -46,4 +45,4 @@ class Header extends Component {
     );
   }
 }
-export default Header;
+export default Header1;
