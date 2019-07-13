@@ -9,11 +9,7 @@ import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
 
 class Intro extends Component {
-  stylec = {
-    height: "565px",
-    width: "366px",
-      textAlign: "center"
-  };
+
   state = {
     nextIcon: (
       <span>
@@ -42,7 +38,8 @@ class Intro extends Component {
                   <Carousel
                     nextIcon={this.state.nextIcon}
                     prevIcon={this.state.prevIcon}
-                    style={this.stylec}
+                    style={{height: "565px",width: "366px", textAlign:"center"
+                    }}
 
                   >
                     <CarouselItem>
@@ -63,7 +60,8 @@ class Intro extends Component {
                   <Carousel
                     nextIcon={this.state.nextIcon}
                     prevIcon={this.state.prevIcon}
-                    style={this.stylec}
+                    style={{height: "565px",width: "366px",textAlign:"center"
+                    }}
                   >
                     <CarouselItem>
                       <Image src="App1.png" />
