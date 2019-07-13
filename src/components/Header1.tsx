@@ -2,9 +2,7 @@ import {
   Navbar,
   Nav,
   NavDropdown,
-  Form,
-  FormControl,
-  Image
+
 } from "react-bootstrap";
 import React, { Component } from "react";
 

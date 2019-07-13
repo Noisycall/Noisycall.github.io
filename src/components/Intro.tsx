@@ -4,14 +4,15 @@ import Image from "react-bootstrap/Image";
 import Carousel from "react-bootstrap/Carousel";
 import CarouselItem from "react-bootstrap/CarouselItem";
 import Container from "react-bootstrap/Container";
-import Col from "react-bootstrap/Col";
-import ResponsiveEmbed from "react-bootstrap/ResponsiveEmbed";
 import Row from "react-bootstrap/Row";
+import Card from "react-bootstrap/Card";
+import CardDeck from "react-bootstrap/CardDeck";
 
 class Intro extends Component {
   stylec = {
     height: "565px",
-    width: "366px"
+    width: "366px",
+      textAlign: "center"
   };
   state = {
     nextIcon: (
@@ -35,23 +36,52 @@ class Intro extends Component {
         </Jumbotron>
         <Container>
           <Row className="justify-content-center">
+            <CardDeck>
+              <Card bg="primary">
+                <Card.Header>
+                  <Carousel
+                    nextIcon={this.state.nextIcon}
+                    prevIcon={this.state.prevIcon}
+                    style={this.stylec}
 
-              <Carousel
-                nextIcon={this.state.nextIcon}
-                prevIcon={this.state.prevIcon}
-                style={this.stylec}
-              >
-                <CarouselItem>
-                  <Image src="PWA1.png" />
-                </CarouselItem>
-                <CarouselItem>
-                  <img src="PWA2.png" />
-                </CarouselItem>
-                <CarouselItem>
-                  <img src="PWA3.png" />
-                </CarouselItem>
-              </Carousel>
-
+                  >
+                    <CarouselItem>
+                      <Image src="PWA1.png" />
+                    </CarouselItem>
+                    <CarouselItem>
+                      <img src="PWA2.png" />
+                    </CarouselItem>
+                    <CarouselItem>
+                      <img src="PWA3.png" />
+                    </CarouselItem>
+                  </Carousel>
+                </Card.Header>
+                <Card.Body>Well Then</Card.Body>
+              </Card>
+              <Card bg="primary">
+                <Card.Header>
+                  <Carousel
+                    nextIcon={this.state.nextIcon}
+                    prevIcon={this.state.prevIcon}
+                    style={this.stylec}
+                  >
+                    <CarouselItem>
+                      <Image src="App1.png" />
+                    </CarouselItem>
+                    <CarouselItem>
+                      <img src="App2.png" />
+                    </CarouselItem>
+                    <CarouselItem>
+                      <img src="App3.png" />
+                    </CarouselItem>
+                    <CarouselItem>
+                      <img src="App4.png" />
+                    </CarouselItem>
+                  </Carousel>
+                </Card.Header>
+                <Card.Body>Well Then</Card.Body>
+              </Card>
+            </CardDeck>
           </Row>
         </Container>
       </div>
