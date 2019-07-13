@@ -33,7 +33,7 @@ class Intro extends Component {
         <Container>
           <Row className="justify-content-center">
             <CardDeck>
-              <Card bg="primary">
+              <Card bg="warning">
                 <Card.Header>
                   <Carousel
                     nextIcon={this.state.nextIcon}
@@ -53,9 +53,9 @@ class Intro extends Component {
                     </CarouselItem>
                   </Carousel>
                 </Card.Header>
-                <Card.Body>Well Then</Card.Body>
+                <Card.Body><h3>MIT Student Console PWA</h3></Card.Body>
               </Card>
-              <Card bg="primary">
+              <Card bg="warning">
                 <Card.Header>
                   <Carousel
                     nextIcon={this.state.nextIcon}
@@ -77,7 +77,7 @@ class Intro extends Component {
                     </CarouselItem>
                   </Carousel>
                 </Card.Header>
-                <Card.Body>Well Then</Card.Body>
+                <Card.Body><h3>MIT Student Console App</h3></Card.Body>
               </Card>
             </CardDeck>
           </Row>
