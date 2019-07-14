@@ -31,74 +31,121 @@ class Intro extends Component {
             Welcome to Coder's Era, a place for programmers to learn and succeed
           </h1>
         </Jumbotron>
-        <Container>
-          <Row className="justify-content-between">
-            <Col md="auto">
-              <Card
-                bg="warning"
-                className="my-1"
-                style={{ maxWidth: "380px", height: "650px" }}
-              >
-                <Card.Header>
-                  <Carousel
-                    nextIcon={this.state.nextIcon}
-                    prevIcon={this.state.prevIcon}
-                    style={{
-                      maxHeight: "565px",
-                      maxWidth: "366px",
-                      textAlign: "center"
-                    }}
-                  >
-                    <CarouselItem>
-                      <Image src="PWA1.png" className="img-fluid" />
-                    </CarouselItem>
-                    <CarouselItem>
-                      <Image src="PWA2.png" className="img-fluid" />
-                    </CarouselItem>
-                    <CarouselItem>
-                      <Image src="PWA3.png" className="img-fluid" />
-                    </CarouselItem>
-                  </Carousel>
-                </Card.Header>
-                <Card.Body>
-                  <h3>MIT Student Console PWA</h3>
-                </Card.Body>
-              </Card>
+        <Container fluid>
+          <Row className="m-1" id="MITPWA">
+            <Col lg className="border border-primary">
+              <Container fluid>
+                <Row>
+                  <Col lg className="align-self-center alert alert-secondary">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Mauris eget turpis vitae tellus ullamcorper elementum ac a
+                    nulla. Vestibulum ante ipsum primis in faucibus orci luctus
+                    et ultrices posuere cubilia Curae; Aliquam sed urna augue.
+                    Cras sed nisl nec est egestas vulputate sit amet vitae
+                    velit. Nunc eu sem sit amet eros sodales sollicitudin. Sed
+                    maximus suscipit massa sit amet condimentum. Suspendisse id
+                    lobortis nisi, sed eleifend ipsum. Vivamus at nibh et justo
+                    accumsan interdum at vel eros. Nulla facilisi. Vivamus vitae
+                    vehicula erat, sit amet lacinia sapien. Sed molestie
+                    pharetra leo, ut dictum neque gravida eu. Etiam varius
+                    tincidunt suscipit. Quisque sagittis odio quis justo
+                    eleifend, vel accumsan nisi mollis. Nulla nisi nisi,
+                    pellentesque sed hendrerit sit amet, sodales ac ante.
+                    Vivamus auctor sed erat ac auctor.
+                  </Col>
+                  <Col>
+                    <Card
+                      bg="warning"
+                      className="my-1"
+                      style={{ maxWidth: "380px", height: "650px" }}
+                    >
+                      <Card.Header>
+                        <Carousel
+                          nextIcon={this.state.nextIcon}
+                          prevIcon={this.state.prevIcon}
+                          style={{
+                            maxHeight: "565px",
+                            maxWidth: "366px",
+                            textAlign: "center"
+                          }}
+                        >
+                          <CarouselItem>
+                            <Image src="PWA1.png" className="img-fluid" />
+                          </CarouselItem>
+                          <CarouselItem>
+                            <Image src="PWA2.png" className="img-fluid" />
+                          </CarouselItem>
+                          <CarouselItem>
+                            <Image src="PWA3.png" className="img-fluid" />
+                          </CarouselItem>
+                        </Carousel>
+                      </Card.Header>
+                      <Card.Body>
+                        <h3>MIT Student Console PWA</h3>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                </Row>
+              </Container>
             </Col>
-            <Col md="auto">
-              <Card
-                bg="warning"
-                className="my-1"
-                style={{ maxWidth: "380px", height: "650px" }}
-              >
-                <Card.Header>
-                  <Carousel
-                    nextIcon={this.state.nextIcon}
-                    prevIcon={this.state.prevIcon}
-                    style={{
-                      maxHeight: "565px",
-                      maxWidth: "300px",
-                      textAlign: "center"
-                    }}
-                  >
-                    <CarouselItem>
-                      <Image src="App1.png" className="img-fluid" />
-                    </CarouselItem>
-                    <CarouselItem>
-                      <Image src="App2.png" className="img-fluid" />
-                    </CarouselItem>
-                    <CarouselItem>
-                      <Image src="App3.png" className="img-fluid" />
-                    </CarouselItem>
-                    <CarouselItem>
-                      <Image src="App4.png" className="img-fluid" />
-                    </CarouselItem>
-                  </Carousel>
-                </Card.Header>
-                <Card.Body>
-                  <h3>MIT Student Console App</h3>
-                </Card.Body>
-              </Card>
+
+            <Col lg className="border border-primary" id="MITApp">
+              <Container fluid>
+                <Row>
+                  <Col lg className="align-self-center alert alert-secondary">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Mauris eget turpis vitae tellus ullamcorper elementum ac a
+                    nulla. Vestibulum ante ipsum primis in faucibus orci luctus
+                    et ultrices posuere cubilia Curae; Aliquam sed urna augue.
+                    Cras sed nisl nec est egestas vulputate sit amet vitae
+                    velit. Nunc eu sem sit amet eros sodales sollicitudin. Sed
+                    maximus suscipit massa sit amet condimentum. Suspendisse id
+                    lobortis nisi, sed eleifend ipsum. Vivamus at nibh et justo
+                    accumsan interdum at vel eros. Nulla facilisi. Vivamus vitae
+                    vehicula erat, sit amet lacinia sapien. Sed molestie
+                    pharetra leo, ut dictum neque gravida eu. Etiam varius
+                    tincidunt suscipit. Quisque sagittis odio quis justo
+                    eleifend, vel accumsan nisi mollis. Nulla nisi nisi,
+                    pellentesque sed hendrerit sit amet, sodales ac ante.
+                    Vivamus auctor sed erat ac auctor.
+                  </Col>
+                  <Col>
+                    <Card
+                      bg="warning"
+                      className="my-1"
+                      style={{ maxWidth: "380px", height: "650px" }}
+                    >
+                      <Card.Header>
+                        <Carousel
+                          nextIcon={this.state.nextIcon}
+                          prevIcon={this.state.prevIcon}
+                          style={{
+                            maxHeight: "565px",
+                            maxWidth: "340px",
+                            textAlign: "center"
+                          }}
+                        >
+                          <CarouselItem>
+                            <Image src="App1.png" fluid />
+                          </CarouselItem>
+                          <CarouselItem>
+                            <Image src="App2.png" fluid />
+                          </CarouselItem>
+                          <CarouselItem>
+                            <Image src="App3.png" fluid />
+                          </CarouselItem>
+                          <CarouselItem>
+                            <Image src="App4.png" fluid />
+                          </CarouselItem>
+                        </Carousel>
+                      </Card.Header>
+                      <Card.Body>
+                        <h3>MIT Student Console App</h3>
+                      </Card.Body>
+                    </Card>
+                  </Col>
+                </Row>
+              </Container>
             </Col>
           </Row>
         </Container>
