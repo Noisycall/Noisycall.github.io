@@ -2,7 +2,16 @@ import {Image, Nav, Navbar, NavDropdown} from "react-bootstrap";
 import React, {Component} from "react";
 
 class Header1 extends Component {
-  render() {
+  render():
+      | React.ReactElement<any, string | React.JSXElementConstructor<any>>
+      | string
+      | number
+      | {}
+      | React.ReactNodeArray
+      | React.ReactPortal
+      | boolean
+      | null
+      | undefined {
     return (
       <div>
         <Navbar variant="dark" bg="dark" expand="lg">
