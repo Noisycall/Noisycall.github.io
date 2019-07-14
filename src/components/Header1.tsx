@@ -1,11 +1,5 @@
-import {
-  Navbar,
-  Nav,
-  NavDropdown,
-    Image
-
-} from "react-bootstrap";
-import React, { Component } from "react";
+import {Image, Nav, Navbar, NavDropdown} from "react-bootstrap";
+import React, {Component} from "react";
 
 class Header1 extends Component {
   render() {
@@ -20,7 +14,7 @@ class Header1 extends Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Link href="#/">Home</Nav.Link>
-              <Nav.Link href="#wow">Link</Nav.Link>
+                <Nav.Link href="#wow">Counter</Nav.Link>
               <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
