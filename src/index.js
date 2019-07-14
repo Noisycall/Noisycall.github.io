@@ -4,10 +4,7 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.css";
-import Header from "./components/Header";
 import { removeDotSegments } from "uri-js";
-import Intro from "./components/Intro";
-import Header1 from "./components/Header1.tsx"
 import Rout from "./components/Rout"
 ReactDOM.render(<Rout/>,document.getElementById("root3"));
 //ReactDOM.render(<Header1/>, document.getElementById("root"));
