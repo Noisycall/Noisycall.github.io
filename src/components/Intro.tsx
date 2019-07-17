@@ -13,27 +13,25 @@ class Intro extends Component {
   state = {
     nextIcon: (
       <span>
-
         <img src="right.png" />
       </span>
     ),
     prevIcon: (
       <span>
-
         <img src="left.png" />
       </span>
     )
   };
   render():
-      | React.ReactElement<any, string | React.JSXElementConstructor<any>>
-      | string
-      | number
-      | {}
-      | React.ReactNodeArray
-      | React.ReactPortal
-      | boolean
-      | null
-      | undefined {
+    | React.ReactElement<any, string | React.JSXElementConstructor<any>>
+    | string
+    | number
+    | {}
+    | React.ReactNodeArray
+    | React.ReactPortal
+    | boolean
+    | null
+    | undefined {
     return (
       <div>
         <Header1 />
@@ -48,25 +46,29 @@ class Intro extends Component {
               <Container fluid>
                 <Row>
                   <Col lg className="align-self-center alert alert-secondary">
-                    <h4 style={{textAlign:"center"}}>The MIT student console is an App that helps all students stay on top of their work!</h4>
-                    <h5><ul>
-                      <li>Calender for the Year</li>
-                      <li>Previous Year Question Papers</li>
-                      <li>Study Material</li>
-                      <li>Profiles</li>
-                      <li>Lost And Found</li>
-                    </ul>
+                    <h4 style={{ textAlign: "center" }}>
+                      The MIT student console is an App that helps all students
+                      stay on top of their work!
+                    </h4>
+                    <h5>
+                      <ul>
+                        <li>Calender for the Year</li>
+                        <li>Previous Year Question Papers</li>
+                        <li>Study Material</li>
+                        <li>Profiles</li>
+                        <li>Lost And Found</li>
+                      </ul>
                     </h5>
                   </Col>
                   <Col>
                     <Card
                       bg="warning"
                       className="my-1"
-                      style={{ maxWidth: "380px", height: "650px" }}
+                      style={{ maxWidth: "380px" }}
                     >
                       <Card.Header>
                         <Carousel
-                            className="d-flex flex-grow-1"
+                          className="d-flex flex-grow-1"
                           nextIcon={this.state.nextIcon}
                           prevIcon={this.state.prevIcon}
                           style={{
@@ -96,34 +98,32 @@ class Intro extends Component {
             </Col>
 
             <Col lg className="" id="MITApp">
-              <Container fluid>
+              <Container className="d-flex align-items-baseline" fluid>
                 <Row>
                   <Col lg className="align-self-center alert alert-secondary">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris eget turpis vitae tellus ullamcorper elementum ac a
-                    nulla. Vestibulum ante ipsum primis in faucibus orci luctus
-                    et ultrices posuere cubilia Curae; Aliquam sed urna augue.
-                    Cras sed nisl nec est egestas vulputate sit amet vitae
-                    velit. Nunc eu sem sit amet eros sodales sollicitudin. Sed
-                    maximus suscipit massa sit amet condimentum. Suspendisse id
-                    lobortis nisi, sed eleifend ipsum. Vivamus at nibh et justo
-                    accumsan interdum at vel eros. Nulla facilisi. Vivamus vitae
-                    vehicula erat, sit amet lacinia sapien. Sed molestie
-                    pharetra leo, ut dictum neque gravida eu. Etiam varius
-                    tincidunt suscipit. Quisque sagittis odio quis justo
-                    eleifend, vel accumsan nisi mollis. Nulla nisi nisi,
-                    pellentesque sed hendrerit sit amet, sodales ac ante.
-                    Vivamus auctor sed erat ac auctor.
+                    <h4 style={{ textAlign: "center" }}>
+                      The MIT student console is an App that helps all students
+                      stay on top of their work!
+                    </h4>
+                    <h5>
+                      <ul>
+                        <li>Calender for the Year</li>
+                        <li>Previous Year Question Papers</li>
+                        <li>Study Material</li>
+                        <li>Profiles</li>
+                        <li>Lost And Found</li>
+                      </ul>
+                    </h5>
                   </Col>
                   <Col>
                     <Card
                       bg="warning"
                       className="my-1"
-                      style={{ maxWidth: "380px", height: "650px" }}
+                      style={{ maxWidth: "380px" }}
                     >
                       <Card.Header>
                         <Carousel
-                            className="d-flex flex-grow-1"
+                          className="d-flex flex-grow-1"
                           nextIcon={this.state.nextIcon}
                           prevIcon={this.state.prevIcon}
                           style={{

@@ -33,7 +33,7 @@ class JumboCaro extends Component {
     return (
       <div>
         <Jumbotron>
-          <Container fluid>
+          <Container className="d-flex align-items-baseline" fluid>
             <Row>
               <Col lg>
                 <h4 style={{ textAlign: "center" }}>
@@ -76,7 +76,7 @@ class JumboCaro extends Component {
                 className="d-flex justify-content-center align-content-between"
               >
                 <Carousel
-                    className="m-1"
+                  className="m-1"
                   nextIcon={this.state.nextIcon}
                   prevIcon={this.state.prevIcon}
                   style={{ width: "366px" }}
