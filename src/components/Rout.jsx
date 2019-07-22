@@ -11,9 +11,9 @@ class Rout extends Component {
       <HashRouter>
         <div>
         <Switch>
-          <Route path="/" component={Intro} exact />
+            <Route path="/" component={ProjCard} exact/>
           <Route path={"/wow"} component={im}/>
-            <Route path="/action" component={ProjCard}/>
+            <Route path="/action" component={Intro}/>
           <Redirect to="/" push/>
         </Switch>
         </div>

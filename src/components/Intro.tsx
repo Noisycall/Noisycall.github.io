@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Image from "react-bootstrap/Image";
 import Carousel from "react-bootstrap/Carousel";
@@ -6,7 +6,6 @@ import CarouselItem from "react-bootstrap/CarouselItem";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
-import Header1 from "./Header1";
 import Col from "react-bootstrap/Col";
 
 class Intro extends Component {
@@ -34,7 +33,6 @@ class Intro extends Component {
     | undefined {
     return (
       <div>
-        <Header1 />
         <Jumbotron>
           <h1 style={{ textAlign: "center" }}>
             Welcome to Coder's Era, a place for programmers to learn and succeed
