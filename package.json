@@ -2,7 +2,7 @@
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://noisycall.github.io/",
+  "homepage": "http://codersera.tech/hellotest",
   "dependencies": {
     "@types/react": "^16.8.23",
     "bootstrap": "^4.3.1",

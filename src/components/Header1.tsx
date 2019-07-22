@@ -54,11 +54,8 @@ class Header1 extends Component {
                   <Button href="#/" variant="outline-secondary">
                     Home
                   </Button>
-                  <Button variant="outline-secondary" href="#wow">
-                    Counter
-                  </Button>
-                  <Button variant="outline-secondary" href="#action">
-                    Test
+                  <Button variant="outline-secondary" href="#MITApp">
+                    MIT App
                   </Button>
                 </ButtonGroup>
               </Nav.Item>
