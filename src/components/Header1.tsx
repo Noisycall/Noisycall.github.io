@@ -1,5 +1,5 @@
-import { Image, Nav, Navbar, NavDropdown } from "react-bootstrap";
-import React, { Component } from "react";
+import {Image, Nav, Navbar} from "react-bootstrap";
+import React, {Component} from "react";
 import Button from "react-bootstrap/Button";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import bsBreakpoints from "bs-breakpoints";
@@ -57,10 +57,13 @@ class Header1 extends Component {
                   <Button variant="outline-secondary" href="#wow">
                     Counter
                   </Button>
+                  <Button variant="outline-secondary" href="#action">
+                    Test
+                  </Button>
                 </ButtonGroup>
               </Nav.Item>
 
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+              {/*<NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   Another action
@@ -72,7 +75,7 @@ class Header1 extends Component {
                 <NavDropdown.Item href="#action/3.4">
                   Separated link
                 </NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown>*/}
             </Nav>
             {/*<Form inline>
                       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
