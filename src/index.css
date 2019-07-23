@@ -7,7 +7,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#lower {
+    background: darkturquoise;
+    background: radial-gradient(ellipse at top, darkturquoise, transparent),
+    radial-gradient(ellipse at left, darkturquoise, transparent),
+    radial-gradient(ellipse at bottom, darkblue, transparent),
+    radial-gradient(ellipse at right, darkblue, transparent);
+}
+
+

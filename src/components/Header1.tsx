@@ -1,7 +1,5 @@
-import {Image, Nav, Navbar} from "react-bootstrap";
-import React, {Component} from "react";
-import Button from "react-bootstrap/Button";
-import ButtonGroup from "react-bootstrap/ButtonGroup";
+import { Image, Nav, Navbar } from "react-bootstrap";
+import React, { Component } from "react";
 import bsBreakpoints from "bs-breakpoints";
 
 class Header1 extends Component {
@@ -32,13 +30,11 @@ class Header1 extends Component {
     | undefined {
     return (
       <div>
-        {bsBreakpoints.init()}
-        {window.onresize = this.resizeEvent}
         <Navbar variant="dark" bg="dark" expand="lg">
-          <Navbar.Brand href="#/">
-            <Image src="codersera.png" rounded height="6%" width="6%" />
+          <Navbar.Brand href="#/" style={{ width: "200px" }}>
+            <Image src="codersera.png" rounded height="10%" width="15%"/>
             <span style={{ color: "#00ff00" }} className="m-1">
-              Welcome To Coder's Era
+              Coders' Era
             </span>
           </Navbar.Brand>
           <Navbar.Toggle
@@ -48,17 +44,21 @@ class Header1 extends Component {
           />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto text-right" id="test">
-              <Nav.Item>
-                {console.log(bsBreakpoints.getCurrentBreakpoint())}
-                <ButtonGroup vertical={this.state.vertTrue}>
+              {/*<Nav.Item>*/}
+              {console.log(bsBreakpoints.getCurrentBreakpoint())}
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="http://codersera.tech/recruitment">
+                Recruitment
+              </Nav.Link>
+              {/*<ButtonGroup vertical={this.state.vertTrue}>
                   <Button href="#/" variant="outline-secondary">
                     Home
                   </Button>
-                  <Button variant="outline-secondary" href="#MITApp">
-                    MIT App
+                  <Button variant="outline-secondary" href="http://codersera.tech/recruitment">
+                    Recruitment
                   </Button>
-                </ButtonGroup>
-              </Nav.Item>
+                </ButtonGroup>*/}
+              {/*</Nav.Item>*/}
 
               {/*<NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
