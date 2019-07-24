@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import Observer from "@researchgate/react-intersection-observer";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -9,7 +9,6 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import CardDeck from "react-bootstrap/CardDeck";
 import CarouselItem from "react-bootstrap/CarouselItem";
 import Carousel from "react-bootstrap/Carousel";
-import Fade from "react-bootstrap/Fade";
 
 class ProjCard extends Component {
   state = { lowervisible: "" };
@@ -21,7 +20,7 @@ class ProjCard extends Component {
   };
   options = {
     onChange: this.handleEnter,
-    root: "#lower",
+      root: null,
     threshold: 0
   };
   images = ["PWA1.png", "PWA2.png", "PWA3.png"];
@@ -124,6 +123,7 @@ class ProjCard extends Component {
                 <Card.Header>
                   <b>Harsh (Founder)</b>
                 </Card.Header>
+
                 <Card.Body className="d-flex flex-column justify-content-between text-center">
                   The founder of the club and a very talented programmer, he has
                   experience making Android Apps for the last 3 years. He has a
@@ -132,10 +132,10 @@ class ProjCard extends Component {
                   to the users of his apps. You might be familiar with his work
                   in the form of the MIT Student Console App Console.
                   <Button
-                    className="mt-md-0 mt-2"
-                    href={"mailto:harsh@codersera.tech"}
-                    block={true}
-                    variant={"primary"}
+                      className="mt-md-1 mt-2"
+                      href={"mailto:harsh@codersera.tech"}
+                      block={true}
+                      variant={"primary"}
                   >
                     Email
                   </Button>
