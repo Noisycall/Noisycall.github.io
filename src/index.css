@@ -22,6 +22,8 @@ code {
 }
 
 .fado{
+  -moz-animation: fade1m 2s;
+  -webkit-animation: fade1w 2s;
   animation: fade1 2s;
 }
 
@@ -34,5 +36,26 @@ code {
     transform: rotateZ(0deg);
     transform-origin: top left;
   }
+}
 
+@-moz-keyframes fade1m {
+  from {
+    -moz-transform: rotateZ(180deg);
+    -moz-transform-origin: top left;
+  }
+  to {
+    -moz-transform: rotateZ(0deg);
+    -moz-transform-origin: top left;
+  }
+}
+
+@-webkit-keyframes fade1w {
+  from {
+    -webkit-transform: rotateZ(180deg);
+    -webkit-transform-origin: top left;
+  }
+  to {
+    -webkit-transform: rotateZ(0deg);
+    -webkit-transform-origin: top left;
+  }
 }

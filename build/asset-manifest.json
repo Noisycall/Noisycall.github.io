@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hellotest/static/css/main.04897a19.chunk.css",
+    "main.css": "/hellotest/static/css/main.7dbbe905.chunk.css",
     "main.js": "/hellotest/static/js/main.f0b1daf9.chunk.js",
     "main.js.map": "/hellotest/static/js/main.f0b1daf9.chunk.js.map",
     "runtime~main.js": "/hellotest/static/js/runtime~main.a903d888.js",
@@ -9,9 +9,9 @@
     "static/js/2.c91e3e60.chunk.js": "/hellotest/static/js/2.c91e3e60.chunk.js",
     "static/js/2.c91e3e60.chunk.js.map": "/hellotest/static/js/2.c91e3e60.chunk.js.map",
     "index.html": "/hellotest/index.html",
-    "precache-manifest.367c0add5939cbbc9736a65460c56483.js": "/hellotest/precache-manifest.367c0add5939cbbc9736a65460c56483.js",
+    "precache-manifest.d46c9fe8181853ecaa090cde2be0344f.js": "/hellotest/precache-manifest.d46c9fe8181853ecaa090cde2be0344f.js",
     "service-worker.js": "/hellotest/service-worker.js",
     "static/css/2.510409cd.chunk.css.map": "/hellotest/static/css/2.510409cd.chunk.css.map",
-    "static/css/main.04897a19.chunk.css.map": "/hellotest/static/css/main.04897a19.chunk.css.map"
+    "static/css/main.7dbbe905.chunk.css.map": "/hellotest/static/css/main.7dbbe905.chunk.css.map"
   }
 }
