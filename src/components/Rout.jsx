@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import {HashRouter, Redirect, Route, Switch} from "react-router-dom";
 import MITApp from "./MITApp"
-
 import ProjCard from "./ProjCard";
 
 class Rout extends Component {
