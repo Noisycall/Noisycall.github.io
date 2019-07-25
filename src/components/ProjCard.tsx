@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import Observer from "@researchgate/react-intersection-observer";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -14,14 +14,17 @@ class ProjCard extends Component {
   state = { lowervisible: "" };
   handleEnter = (event: any) => {
     this.setState(() => {
-      let exampleobj = { lowervisible: event.isIntersecting ? "fado" : "" };
+      let exampleobj = {
+        lowervisible: event.isIntersecting ? "fado" : "invisible"
+      };
       return exampleobj;
     });
   };
   options = {
     onChange: this.handleEnter,
-      root: null,
-    threshold: 0
+    root: "null",
+    threshold: 0,
+    rootMargin : "0px 0px 0px 0px"
   };
   images = ["PWA1.png", "PWA2.png", "PWA3.png"];
   Appimages = ["App1.png", "App2.png", "App3.png", "App4.png"];
@@ -132,10 +135,10 @@ class ProjCard extends Component {
                   to the users of his apps. You might be familiar with his work
                   in the form of the MIT Student Console App Console.
                   <Button
-                      className="mt-md-1 mt-2"
-                      href={"mailto:harsh@codersera.tech"}
-                      block={true}
-                      variant={"primary"}
+                    className="mt-md-1 mt-2"
+                    href={"mailto:harsh@codersera.tech"}
+                    block={true}
+                    variant={"primary"}
                   >
                     Email
                   </Button>
