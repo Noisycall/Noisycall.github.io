@@ -18,22 +18,19 @@ code {
     radial-gradient(ellipse at left, darkturquoise, transparent),
     radial-gradient(ellipse at bottom, darkblue, transparent),
     radial-gradient(ellipse at right, darkblue, transparent);
-
 }
 
-.fado{
-  animation: fade1 2s;
+.fado {
+  animation: fade1 1500ms ease-out;
 }
 
 @keyframes fade1 {
-  from {
-    transform: rotateZ(180deg);
-    transform-origin: top left;
+  0% {
+    opacity: 0;
+    transform: translateX(-30rem);
   }
-  to{
-    transform: rotateZ(0deg);
-    transform-origin: top left;
+  100% {
+    opacity: 1;
+    transform: scale(1);
   }
-
 }
-

@@ -22,9 +22,8 @@ class ProjCard extends Component {
   };
   options = {
     onChange: this.handleEnter,
-    root: "null",
-    threshold: 0,
-    rootMargin : "0px 0px 0px 0px"
+    threshold: 0.4,
+
   };
   images = ["PWA1.png", "PWA2.png", "PWA3.png"];
   Appimages = ["App1.png", "App2.png", "App3.png", "App4.png"];
@@ -118,7 +117,7 @@ class ProjCard extends Component {
         </Container>
 
         <Observer {...this.options}>
-          <Jumbotron id="lower" className={this.state.lowervisible}>
+          <Jumbotron id="lower" className={this.state.lowervisible+" flex-shrink-1"}>
             <h2 className="text-center">About Us</h2>
             <br />
             <CardDeck style={{ fontFamily: "Verdana", fontSize: "14" }}>
