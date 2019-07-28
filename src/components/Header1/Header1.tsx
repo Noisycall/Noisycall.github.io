@@ -1,7 +1,7 @@
 import {Image, Nav, Navbar} from "react-bootstrap";
 import React, {Component} from "react";
 import bsBreakpoints from "bs-breakpoints";
-import logo from "./codersera.png"
+import logo from "./codersera.png";
 
 class Header1 extends Component {
   state = {
@@ -46,10 +46,8 @@ class Header1 extends Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto text-right" id="test">
               {/*<Nav.Item>*/}
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="http://codersera.tech/recruitment">
-                Recruitment
-              </Nav.Link>
+              <Nav.Link href="#/">Home</Nav.Link>
+              <Nav.Link href="#Slots">Recruitment Slots</Nav.Link>
               {/*<ButtonGroup vertical={this.state.vertTrue}>
                   <Button href="#/" variant="outline-secondary">
                     Home

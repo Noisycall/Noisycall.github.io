@@ -16,7 +16,6 @@ import PWA1 from "./PWA1.png";
 import PWA2 from "./PWA2.png";
 import PWA3 from "./PWA3.png";
 
-
 class ProjCard extends Component {
   state = { lowervisible: "" };
   options = {
@@ -51,10 +50,15 @@ class ProjCard extends Component {
     | undefined {
     return (
       <div>
-        <Jumbotron>
-          <h1 style={{ textAlign: "center" }}>
+        <Jumbotron style={{textAlign: "center"}}>
+          <h1>
             Welcome to Coder's Era, a place for programmers to learn and succeed
           </h1>
+          <hr/>
+
+          <Button href="#Slots" variant={"outline-info"} size={"lg"}>
+            Recruitment slots
+          </Button>
         </Jumbotron>
         <Container fluid className="mb-5 mb-lg-3">
           {/*Container for Cards*/}
