@@ -5,8 +5,9 @@ import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.css";
 import Rout from "./components/Rout";
-import Header1 from "./components/Header1";
+import Header1 from "./components/Header1/Header1";
 import Footer from "./components/Footer";
+
 ReactDOM.render(<Header1 />, document.getElementById("header1"));
 ReactDOM.render(<Rout />, document.getElementById("root"));
 ReactDOM.render(<Footer />, document.getElementById("footer1"));

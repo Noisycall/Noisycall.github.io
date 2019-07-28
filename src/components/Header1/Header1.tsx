@@ -1,6 +1,7 @@
 import {Image, Nav, Navbar} from "react-bootstrap";
 import React, {Component} from "react";
 import bsBreakpoints from "bs-breakpoints";
+import logo from "./codersera.png"
 
 class Header1 extends Component {
   state = {
@@ -31,8 +32,8 @@ class Header1 extends Component {
     return (
       <div>
         <Navbar variant="dark" bg="dark" expand="lg">
-          <Navbar.Brand href="#/" style={{ width: "200px" }}>
-              <Image src="codersera.png" rounded height="10%" width="15%"/>
+          <Navbar.Brand href="/home" style={{width: "200px"}}>
+            <Image src={logo} rounded height="10%" width="15%"/>
             <span style={{ color: "#00ff00" }} className="m-1">
               Coders' Era
             </span>

@@ -8,6 +8,14 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import CardDeck from "react-bootstrap/CardDeck";
 import CarouselItem from "react-bootstrap/CarouselItem";
 import Carousel from "react-bootstrap/Carousel";
+import App1 from "./App1.png";
+import App2 from "./App2.png";
+import App3 from "./App3.png";
+import App4 from "./App4.png";
+import PWA1 from "./PWA1.png";
+import PWA2 from "./PWA2.png";
+import PWA3 from "./PWA3.png";
+
 
 class ProjCard extends Component {
   state = { lowervisible: "" };
@@ -26,8 +34,8 @@ class ProjCard extends Component {
     });
   };
 
-  images = ["PWA1.png", "PWA2.png", "PWA3.png"];
-  Appimages = ["App1.png", "App2.png", "App3.png", "App4.png"];
+  images = [PWA1, PWA2, PWA3];
+  Appimages = [App1, App2, App3, App4];
   dowloadlink =
     " https://play.google.com/store/apps/details?id=in.edu.projecthermes.www.mitwpustudentconsole";
 
