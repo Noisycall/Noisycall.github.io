@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import Observer from "@researchgate/react-intersection-observer";
+import React, {Component} from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -12,23 +11,26 @@ import Carousel from "react-bootstrap/Carousel";
 
 class ProjCard extends Component {
   state = { lowervisible: "" };
+  options = {
+    root: null,
+    threshold: 0
+  };
+
   handleEnter = (event: any) => {
     this.setState(() => {
       let exampleobj = {
         lowervisible: event.isIntersecting ? "fado" : "invisible"
       };
+      console.log(event.isIntersecting);
       return exampleobj;
     });
   };
-  options = {
-    onChange: this.handleEnter,
-    threshold: 0.4,
 
-  };
   images = ["PWA1.png", "PWA2.png", "PWA3.png"];
   Appimages = ["App1.png", "App2.png", "App3.png", "App4.png"];
   dowloadlink =
     " https://play.google.com/store/apps/details?id=in.edu.projecthermes.www.mitwpustudentconsole";
+
   render():
     | React.ReactElement<any, string | React.JSXElementConstructor<any>>
     | string
@@ -61,8 +63,8 @@ class ProjCard extends Component {
                   activities and studies
                   <hr />
                   <Carousel>
-                    {this.Appimages.map(image => (
-                      <CarouselItem>
+                    {this.Appimages.map((image, index) => (
+                        <CarouselItem key={index}>
                         <img src={image} className="img-fluid" alt={image} />
                       </CarouselItem>
                     ))}
@@ -93,8 +95,8 @@ class ProjCard extends Component {
                   but in a platform independent manner.
                   <hr />
                   <Carousel>
-                    {this.images.map(image => (
-                      <CarouselItem>
+                    {this.images.map((image, index) => (
+                        <CarouselItem key={index}>
                         <img src={image} className="img-fluid" alt={image} />
                       </CarouselItem>
                     ))}
@@ -116,74 +118,72 @@ class ProjCard extends Component {
           </Row>
         </Container>
 
-        <Observer {...this.options}>
-          <Jumbotron id="lower" className={this.state.lowervisible+" flex-shrink-1"}>
-            <h2 className="text-center">About Us</h2>
-            <br />
-            <CardDeck style={{ fontFamily: "Verdana", fontSize: "14" }}>
-              <Card>
-                <Card.Header>
-                  <b>Harsh (Founder)</b>
-                </Card.Header>
+        <Jumbotron id="lower" className={this.state.lowervisible}>
+          <h2 className="text-center">About Us</h2>
+          <br/>
+          <CardDeck style={{fontFamily: "Verdana", fontSize: "14"}}>
+            <Card>
+              <Card.Header>
+                <b>Harsh (Founder)</b>
+              </Card.Header>
 
-                <Card.Body className="d-flex flex-column justify-content-between text-center">
-                  The founder of the club and a very talented programmer, he has
-                  experience making Android Apps for the last 3 years. He has a
-                  talent for picking the best people to work with and will go
-                  sleepless in his quest to deliver as many features as possible
-                  to the users of his apps. You might be familiar with his work
-                  in the form of the MIT Student Console App Console.
-                  <Button
+              <Card.Body className="d-flex flex-column justify-content-between text-center">
+                The founder of the club and a very talented programmer, he has
+                experience making Android Apps for the last 3 years. He has a
+                talent for picking the best people to work with and will go
+                sleepless in his quest to deliver as many features as possible
+                to the users of his apps. You might be familiar with his work in
+                the form of the MIT Student Console App Console.
+                <Button
                     className="mt-md-1 mt-2"
                     href={"mailto:harsh@codersera.tech"}
                     block={true}
                     variant={"primary"}
-                  >
-                    Email
-                  </Button>
-                </Card.Body>
-              </Card>
-              <Card>
-                <Card.Header>
-                  <b>Manas</b>
-                </Card.Header>
-                <Card.Body className="d-flex flex-column justify-content-between text-center">
-                  A Programmer to his core, Manas has worked at more PHP code
-                  than I would even care to look at, but his importance in
-                  building reliable backends cannot be understated. He is also
-                  the primary developer of the MIT PWA as well as a Co-Developer
-                  on the MIT Student Console App.
-                  <Button
+                >
+                  Email
+                </Button>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Header>
+                <b>Manas</b>
+              </Card.Header>
+              <Card.Body className="d-flex flex-column justify-content-between text-center">
+                A Programmer to his core, Manas has worked at more PHP code than
+                I would even care to look at, but his importance in building
+                reliable backends cannot be understated. He is also the primary
+                developer of the MIT PWA as well as a Co-Developer on the MIT
+                Student Console App.
+                <Button
                     className="mt-md-0 mt-2"
                     href={"mailto:manas@codersera.tech"}
                     block={true}
                     variant={"primary"}
-                  >
-                    Email
-                  </Button>
-                </Card.Body>
-              </Card>
-              <Card>
-                <Card.Header>
-                  <b>Kunal</b>
-                </Card.Header>
-                <Card.Body className="d-flex flex-column justify-content-between text-center">
-                  Hello, I'm the one who created this website, so if you didn't
-                  like it I'm sorry to disappoint you ☹️. However, if you liked
-                  it, please let me know at the linked email 😃.
-                  <Button
+                >
+                  Email
+                </Button>
+              </Card.Body>
+            </Card>
+            <Card>
+              <Card.Header>
+                <b>Kunal</b>
+              </Card.Header>
+              <Card.Body className="d-flex flex-column justify-content-between text-center">
+                Hello, I'm the one who created this website, so if you didn't
+                like it I'm sorry to disappoint you ☹️. However, if you liked
+                it, please let me know at the linked email 😃.
+                <Button
                     className="mt-md-0 mt-2"
                     href={"mailto:kunal@codersera.tech"}
                     block={true}
                     variant={"primary"}
-                  >
-                    Email
-                  </Button>
-                </Card.Body>
-              </Card>
-            </CardDeck>
-          </Jumbotron>
-        </Observer>
+                >
+                  Email
+                </Button>
+              </Card.Body>
+            </Card>
+          </CardDeck>
+        </Jumbotron>
       </div>
     );
   }

@@ -45,7 +45,6 @@ class Header1 extends Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto text-right" id="test">
               {/*<Nav.Item>*/}
-              {console.log(bsBreakpoints.getCurrentBreakpoint())}
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="http://codersera.tech/recruitment">
                 Recruitment

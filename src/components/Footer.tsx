@@ -21,7 +21,7 @@ class Footer extends Component {
             <div className="mt-3">
                 <Navbar bg="dark" variant="dark" expand={"lg"}>
 
-                    <Button variant="secondary">
+                    <Button variant="secondary" href="mailto:contact@codersera.tech">
                         Contact Us
                     </Button>
 
