@@ -39,6 +39,9 @@ class Slots extends Component {
     ));
     this.setState({ testmap });
   };
+  componentDidMount(): void {
+    this.handleInput();
+  }
 
   render():
     | React.ReactElement<any, string | React.JSXElementConstructor<any>>
@@ -52,7 +55,6 @@ class Slots extends Component {
     | undefined {
     return (
       <div>
-        {this.handleInput}
         <Container className="mt-1">
           <Row className="m-3">
             <Col>
@@ -61,6 +63,7 @@ class Slots extends Component {
                   If you have registered and do not see your name, your slot may
                   be for later, check again soon
                 </ListGroupItem>
+                <ListGroupItem variant={"info"}>Location is N203</ListGroupItem>
                 <ListGroupItem variant={"primary"}>
                   Slot 1 - 3:45 - 4:45 PM IST - 30/7/19
                 </ListGroupItem>
