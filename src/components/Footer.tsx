@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
 
@@ -21,7 +21,7 @@ class Footer extends Component {
             <div className="mt-3">
                 <Navbar bg="dark" variant="dark" expand={"lg"}>
 
-                    <Button variant="secondary" href="mailto:contact@codersera.tech">
+                    <Button variant="secondary" href="mailto:recruitment@codersera.tech">
                         Contact Us
                     </Button>
 

@@ -7,6 +7,8 @@ import Table from "react-bootstrap/Table";
 import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
 import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+
 class Slots extends Component {
   state = {
     searchval: "",
@@ -60,8 +62,15 @@ class Slots extends Component {
             <Col>
               <ListGroup style={{ fontWeight: "bold" }}>
                 <ListGroupItem variant={"warning"}>
-                  If you have registered and do not see your name, your slot may
-                  be for later, check again soon
+                  If you have registered and do not see your name, please contact us here
+                  <Button type={"button"} size={"sm"} variant={"warning"} className="mx-2"
+                          href="mailto:recruitment@codersera.tech">
+                    Contact
+                  </Button>
+                </ListGroupItem>
+                <ListGroupItem variant={"danger"}>
+                  Not all slots have been allotted yet, please check again later
+                  if your slot is not written
                 </ListGroupItem>
                 <ListGroupItem variant={"info"}>Location is N203</ListGroupItem>
                 <ListGroupItem variant={"primary"}>
