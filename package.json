@@ -5,11 +5,11 @@
   "homepage": "http://codersera.tech/home",
   "dependencies": {
     "@researchgate/react-intersection-observer": "^1.0.1",
-    "@types/react": "^16.8.23",
+    "@types/react": "^16.8.24",
     "bootstrap": "^4.3.1",
     "bs-breakpoints": "^1.1.1",
     "core-js": "^3.1.4",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.0",
     "jquery": "^3.4.1",
     "prettier": "^1.18.2",
     "react": "^16.8.6",
