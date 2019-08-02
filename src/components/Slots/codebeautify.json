@@ -1,78 +1,63 @@
 ﻿[
   {
     "name": "Abhijeet jha",
-    "Group": "Slot 1",
-    "": ""
+    "Group": "Slot 1"
   },
   {
     "name": "Dewen Honawale",
-    "Group": "Slot 1",
-    "": ""
+    "Group": "Slot 1"
   },
   {
     "name": "Pratham Jaiswal",
-    "Group": "Slot 1",
-    "": ""
+    "Group": "Slot 1"
   },
   {
     "name": "Priyanka jawalkar",
-    "Group": "Slot 1",
-    "": ""
+    "Group": "Slot 1"
   },
   {
     "name": "Rutvik Bhalerao ",
-    "Group": "Slot 1",
-    "": ""
+    "Group": "Slot 1"
   },
   {
     "name": "Saarthak Batra ",
-    "Group": "Slot 1",
-    "": ""
+    "Group": "Slot 1"
   },
   {
     "name": "Sajal",
-    "Group": "Slot 1",
-    "": ""
+    "Group": "Slot 1"
   },
   {
     "name": "Shambhavi Sinha",
-    "Group": "Slot 1",
-    "": ""
+    "Group": "Slot 1"
   },
   {
     "name": "Soham Gumaste",
-    "Group": "Slot 1",
-    "": ""
+    "Group": "Slot 1"
   },
   {
     "name": "Atharva Pansare",
-    "Group": "Slot 2",
-    "": ""
+    "Group": "Slot 2"
   },
   {
     "name": "Devangi Agarwal",
-    "Group": "Slot 2",
-    "": ""
+    "Group": "Slot 2"
   },
   {
     "name": "Devansh Pandya",
-    "Group": "Slot 2",
-    "": ""
+    "Group": "Slot 2"
   },
   {
     "name": "Dhanashree Sandesh Godase ",
-    "Group": "Slot 2",
-    "": ""
+    "Group": "Slot 2"
   },
   {
     "name": "Gargie Nimbalkar ",
-    "Group": "Slot 2",
-    "": ""
+    "Group": "Slot 2"
   },
   {
     "name": "Ishaan bhatnagar ",
-    "Group": "Slot 2",
-    "": ""
+    "Group": "Slot 2"
   },
   {
     "name": "Kanishk Jamgaonkar",
@@ -127,10 +112,6 @@
     "Group": "Slot 2"
   },
   {
-    "name": "Srijan Gupta",
-    "Group": "Slot 2"
-  },
-  {
     "name": "Srishti Bose",
     "Group": "Slot 2"
   },
@@ -160,499 +141,626 @@
   },
   {
     "name": "Aryan Yadav",
-    "Group": ""
+    "Group": "Slot 3"
   },
   {
     "name": "Aditya bhadakwade",
-    "Group": ""
+    "Group": "Slot 3"
   },
   {
     "name": "Mukta Khot ",
-    "Group": ""
+    "Group": "Slot 3"
   },
   {
     "name": "Ajinkya Nagarkar",
-    "Group": ""
+    "Group": "Slot 3"
   },
   {
     "name": "Omkar Avinash Shete",
-    "Group": ""
+    "Group": "Slot 3"
   },
   {
     "name": "Omkar Shete",
-    "Group": ""
-  },
-  {
-    "name": "YASHRAJ PAWAR",
-    "Group": ""
-  },
-  {
-    "name": "Prajyot Chandrashekhar Bhamare",
-    "Group": ""
+    "Group": "Slot 3"
   },
   {
     "name": "Pihoo Bhargava",
-    "Group": ""
-  },
-  {
-    "name": "Shree Patra",
-    "Group": ""
+    "Group": "Slot 3"
   },
   {
     "name": "Govinda Talreja",
-    "Group": ""
+    "Group": "Slot 3"
   },
   {
-    "name": "Rutumbara Chakor "
+    "name": "Aditya Rao",
+    "Group": "Slot 3"
   },
   {
-    "name": "Aditya Rao"
+    "name": "Ansari Faiz",
+    "Group": "Slot 3"
   },
   {
-    "name": "Ansari Faiz"
+    "name": "Ansari Mohd Faiz ",
+    "Group": "Slot 3"
   },
   {
-    "name": "Ansari Mohd Faiz "
+    "name": "Anurag Rangole",
+    "Group": "Slot 3"
   },
   {
-    "name": "Anurag Rangole"
+    "name": "Dhruv Chechani",
+    "Group": "Slot 3"
   },
   {
-    "name": "Dhruv Chechani"
+    "name": "Dimple Agarwal",
+    "Group": "Slot 3"
   },
   {
-    "name": "Dimple Agarwal"
+    "name": "Mridul Singhal",
+    "Group": "Slot 3"
   },
   {
-    "name": "Mridul Singhal"
+    "name": "Mukta",
+    "Group": "Slot 3"
   },
   {
-    "name": "Mukta"
+    "name": "Neil Bhutada",
+    "Group": "Slot 3"
   },
   {
-    "name": "Neil Bhutada"
+    "name": "Nimish godbole",
+    "Group": "Slot 3"
   },
   {
-    "name": "Nimish godbole"
+    "name": "Nitin",
+    "Group": "Slot 3"
   },
   {
-    "name": "Nitin"
+    "name": "Om Patel",
+    "Group": "Slot 3"
   },
   {
-    "name": "Om Patel"
+    "name": "Omkar Dutta",
+    "Group": "Slot 3"
   },
   {
-    "name": "Omkar Dutta"
+    "name": "PARTH RAINCHWAR",
+    "Group": "Slot 3"
   },
   {
-    "name": "PARTH RAINCHWAR"
+    "name": "Aashi tapadia",
+    "Group": "Slot 4"
   },
   {
-    "name": "Rashmita chauhan"
+    "name": "Chebolu abhishek",
+    "Group": "Slot 4"
   },
   {
-    "name": "Sahil sunil kakad"
+    "name": "Aditya kothavade",
+    "Group": "Slot 4"
   },
   {
-    "name": "Sarvesh darade"
+    "name": "Advait Mukund Pathak",
+    "Group": "Slot 4"
   },
   {
-    "name": "Shrey bhonsle"
+    "name": "Anuj Todkar",
+    "Group": "Slot 4"
   },
   {
-    "name": "Akhilesh Manil Moorthy"
+    "name": "Archit",
+    "Group": "Slot 4"
   },
   {
-    "name": "Amey Bhide"
+    "name": "Atharva Jibhakate",
+    "Group": "Slot 4"
   },
   {
-    "name": "Amey Bhide"
+    "name": "Dhruv Samadhiya",
+    "Group": "Slot 4"
   },
   {
-    "name": "Amrita Ghosh"
+    "name": "SHRADDHA JADHAV",
+    "Group": "Slot 4"
   },
   {
-    "name": "Aniket Inamdar"
+    "name": "Shashikala kulkarni ",
+    "Group": "Slot 4"
   },
   {
-    "name": "Atharv Ganla"
+    "name": "Shaunak Bachal",
+    "Group": "Slot 4"
   },
   {
-    "name": "Atharva Joshi"
+    "name": "Tanmay Kapoor",
+    "Group": "Slot 4"
   },
   {
-    "name": "Geet Kedia "
+    "name": "umang sakuja",
+    "Group": "Slot 4"
   },
   {
-    "name": "Kewal Padamwar"
+    "name": "Saloni gandhi",
+    "Group": "Slot 4"
   },
   {
-    "name": "Prajyot Zankar"
+    "name": "Sarthak Oke",
+    "Group": "Slot 4"
   },
   {
-    "name": "Pranav Parnerkar"
+    "name": "Shshikala kulkarni ",
+    "Group": "Slot 4"
   },
   {
-    "name": "Ravi Yadav"
+    "name": "Vidipta Sadhwani ",
+    "Group": "Slot 4"
   },
   {
-    "name": "Ravneet kaur"
+    "name": "Aditya Meshram",
+    "Group": "Slot 4"
   },
   {
-    "name": "Rishab Koul"
+    "name": "Archit jain",
+    "Group": "Slot 4"
   },
   {
-    "name": "Saloni gandhi"
+    "name": "Dhruv jain",
+    "Group": "Slot 4"
   },
   {
-    "name": "Sarthak Oke"
+    "name": "Divyang bagla",
+    "Group": "Slot 4"
   },
   {
-    "name": "Shashikala kulkarni "
+    "name": "Amey Bhide",
+    "Group": "Slot 5"
   },
   {
-    "name": "Shaunak Bachal"
+    "name": "Geet Kedia ",
+    "Group": "Slot 5"
   },
   {
-    "name": "SHRADDHA JADHAV"
+    "name": "Amrita Ghosh",
+    "Group": "Slot 5"
   },
   {
-    "name": "Shshikala kulkarni "
+    "name": "Kewal Padamwar",
+    "Group": "Slot 5"
   },
   {
-    "name": "Tanmay Kapoor"
+    "name": "Atharva Joshi",
+    "Group": "Slot 5"
   },
   {
-    "name": "umang sakuja"
+    "name": "YASHRAJ PAWAR",
+    "Group": "Slot 5"
   },
   {
-    "name": "Vidipta Sadhwani "
+    "name": "Prajyot Chandrashekhar Bhamare",
+    "Group": "Slot 5"
   },
   {
-    "name": "Aashi tapadia"
+    "name": "Ravi Yadav",
+    "Group": "Slot 5"
   },
   {
-    "name": "Aditya kothavade"
+    "name": "Shree Patra",
+    "Group": "Slot 5"
   },
   {
-    "name": "Aditya Meshram"
+    "name": "Rutumbara Chakor ",
+    "Group": "Slot 5"
   },
   {
-    "name": "Advait Mukund Pathak"
+    "name": "Rashmita chauhan",
+    "Group": "Slot 5"
   },
   {
-    "name": "Anuj Todkar"
+    "name": "Sahil sunil kakad",
+    "Group": "Slot 5"
   },
   {
-    "name": "Archit"
+    "name": "Sarvesh darade",
+    "Group": "Slot 5"
   },
   {
-    "name": "Archit jain"
+    "name": "Shrey bhonsle",
+    "Group": "Slot 5"
   },
   {
-    "name": "Atharva Jibhakate"
+    "name": "Akhilesh Manil Moorthy",
+    "Group": "Slot 5"
   },
   {
-    "name": "Chebolu abhishek"
+    "name": "Amey Bhide",
+    "Group": "Slot 5"
   },
   {
-    "name": "Dhruv jain"
+    "name": "Aniket Inamdar",
+    "Group": "Slot 5"
   },
   {
-    "name": "Dhruv Samadhiya"
+    "name": "Atharv Ganla",
+    "Group": "Slot 5"
   },
   {
-    "name": "Divyang bagla"
+    "name": "Prajyot Zankar",
+    "Group": "Slot 5"
   },
   {
-    "name": "Divyang bagla"
+    "name": "Pranav Parnerkar",
+    "Group": "Slot 5"
   },
   {
-    "name": "Hrushikesh Nemade"
+    "name": "Ravneet kaur",
+    "Group": "Slot 5"
   },
   {
-    "name": "Mufaddal Jiruwala"
+    "name": "Rishab Koul",
+    "Group": "Slot 5"
   },
   {
-    "name": "Mufaddal jiruwala"
+    "name": "Hrushikesh Nemade",
+    "Group": "Slot 6"
   },
   {
-    "name": "Mufaddal Jiruwala"
+    "name": "Omkar Ramchandra Shinde",
+    "Group": "Slot 6"
   },
   {
-    "name": "Omkar Ramchandra Shinde"
+    "name": "Praveen Kumar Gupta ",
+    "Group": "Slot 6"
   },
   {
-    "name": "Prachi Jain"
+    "name": "Prachi Jain",
+    "Group": "Slot 6"
   },
   {
-    "name": "Prajakta khamkar"
+    "name": "Rahul Sannat",
+    "Group": "Slot 6"
   },
   {
-    "name": "Praveen Kumar Gupta "
+    "name": "Saloni saxena",
+    "Group": "Slot 6"
   },
   {
-    "name": "Rahul Sannat"
+    "name": "Sarvarth Deepak Patil",
+    "Group": "Slot 6"
   },
   {
-    "name": "Rishabh Shetty"
+    "name": "Shreyas Patil ",
+    "Group": "Slot 6"
   },
   {
-    "name": "Saloni saxena"
+    "name": "Shubham Shah",
+    "Group": "Slot 6"
   },
   {
-    "name": "Sarvarth Deepak Patil"
+    "name": "Stuti jajodia",
+    "Group": "Slot 6"
   },
   {
-    "name": "Sarvarth Patil"
+    "name": "Mufaddal jiruwala",
+    "Group": "Slot 6"
   },
   {
-    "name": "Sarvesh maruti"
+    "name": "Prajakta khamkar",
+    "Group": "Slot 6"
   },
   {
-    "name": "Savinay Mengi"
+    "name": "Rishabh Shetty",
+    "Group": "Slot 6"
   },
   {
-    "name": "SEJAL SAWARKAR"
+    "name": "Sarvarth Patil",
+    "Group": "Slot 6"
   },
   {
-    "name": "Shivansh Singh"
+    "name": "Sarvesh maruti",
+    "Group": "Slot 6"
   },
   {
-    "name": "Shreyas Patil "
+    "name": "Savinay Mengi",
+    "Group": "Slot 6"
   },
   {
-    "name": "Shubham Shah"
+    "name": "SEJAL SAWARKAR",
+    "Group": "Slot 6"
   },
   {
-    "name": "Stuti jajodia"
+    "name": "Shivansh Singh",
+    "Group": "Slot 6"
   },
   {
-    "name": "Tanmay Das"
+    "name": "Tanmay Das",
+    "Group": "Slot 6"
   },
   {
-    "name": "Yash"
+    "name": "Yash",
+    "Group": "Slot 6"
   },
   {
-    "name": "Yuvraj Singh Chauhan"
+    "name": "Omkar Najan",
+    "Group": "Slot 7"
   },
   {
-    "name": "Aashay Randhir "
+    "name": "Parth Sarda",
+    "Group": "Slot 7"
   },
   {
-    "name": "Adwaiy Randale"
+    "name": "Rohit Patil",
+    "Group": "Slot 7"
   },
   {
-    "name": "Afrid Bagwan"
+    "name": "Shreeraj patil",
+    "Group": "Slot 7"
   },
   {
-    "name": "Akshay Uchale"
+    "name": "Utkarsh Sarin",
+    "Group": "Slot 7"
   },
   {
-    "name": "Alpesh Anchliya"
+    "name": "Viren Patel",
+    "Group": "Slot 7"
   },
   {
-    "name": "Aniket Singh"
+    "name": "Prabhat Panwar",
+    "Group": "Slot 7"
   },
   {
-    "name": "Ashish Joshi "
+    "name": "Pushkar Rajesh Jain",
+    "Group": "Slot 7"
   },
   {
-    "name": "Atharv Bhujade"
+    "name": "Rishab Saxena ",
+    "Group": "Slot 7"
   },
   {
-    "name": "Ayush Gupta"
+    "name": "Rishabh Sahay",
+    "Group": "Slot 7"
   },
   {
-    "name": "Chinmay Ravindra Amrutkar"
+    "name": "Rohit Jadhav",
+    "Group": "Slot 7"
   },
   {
-    "name": "Divya Gugale"
+    "name": "Ruchin Shroff",
+    "Group": "Slot 7"
   },
   {
-    "name": "Harsh oswal "
+    "name": "Samiran Bhattacharya ",
+    "Group": "Slot 7"
   },
   {
-    "name": "Harshit Bhageria"
+    "name": "Sharayu dosalwar",
+    "Group": "Slot 7"
   },
   {
-    "name": "Jerome Wilson "
+    "name": "Shivam tripathi",
+    "Group": "Slot 7"
   },
   {
-    "name": "Keyur SUNIT Chaudhari "
+    "name": "Shreyansh Agrawal ",
+    "Group": "Slot 7"
   },
   {
-    "name": "Manas kalangan"
+    "name": "shruti kankriya",
+    "Group": "Slot 7"
   },
   {
-    "name": "Mohit Chaudhari"
+    "name": "siddhartha yadav",
+    "Group": "Slot 7"
   },
   {
-    "name": "Naveen Maheshwari"
+    "name": "Smit arekar",
+    "Group": "Slot 7"
   },
   {
-    "name": "Neel Rane"
+    "name": "Soham Patil",
+    "Group": "Slot 7"
   },
   {
-    "name": "Nihal Raj"
+    "name": "Soham Pinglikar",
+    "Group": "Slot 7"
   },
   {
-    "name": "Omkar Chandorkar"
+    "name": "Stuti",
+    "Group": "Slot 7"
   },
   {
-    "name": "Omkar Najan"
+    "name": "Vedant Bhonde",
+    "Group": "Slot 7"
   },
   {
-    "name": "Parth Sarda"
+    "name": "Vedant karle",
+    "Group": "Slot 7"
   },
   {
-    "name": "Prabhat Panwar"
+    "name": "Atharv Bhujade",
+    "Group": "Slot 8"
   },
   {
-    "name": "Pushkar Rajesh Jain"
+    "name": "Afrid Bagwan",
+    "Group": "Slot 8"
   },
   {
-    "name": "Rishab Saxena "
+    "name": "Ayush Gupta",
+    "Group": "Slot 8"
   },
   {
-    "name": "Rishabh Sahay"
+    "name": "Chinmay Ravindra Amrutkar",
+    "Group": "Slot 8"
   },
   {
-    "name": "Rohit Jadhav"
+    "name": "Divya Gugale",
+    "Group": "Slot 8"
   },
   {
-    "name": "Rohit Patil"
+    "name": "Harsh oswal ",
+    "Group": "Slot 8"
   },
   {
-    "name": "Ruchin Shroff"
+    "name": "Jerome Wilson ",
+    "Group": "Slot 8"
   },
   {
-    "name": "Samiran Bhattacharya "
+    "name": "Keyur SUNIT Chaudhari ",
+    "Group": "Slot 8"
   },
   {
-    "name": "Sharayu dosalwar"
+    "name": "Mohit Chaudhari",
+    "Group": "Slot 8"
   },
   {
-    "name": "Shivam tripathi"
+    "name": "Naveen Maheshwari",
+    "Group": "Slot 8"
   },
   {
-    "name": "Shreeraj patil"
+    "name": "Nihal Raj",
+    "Group": "Slot 8"
   },
   {
-    "name": "Shreyansh Agrawal "
+    "name": "Omkar Chandorkar",
+    "Group": "Slot 8"
   },
   {
-    "name": "shruti kankriya"
+    "name": "Adwaiy Randale",
+    "Group": "Slot 8"
   },
   {
-    "name": "siddhartha yadav"
+    "name": "Akshay Uchale",
+    "Group": "Slot 8"
   },
   {
-    "name": "Smit arekar"
+    "name": "Alpesh Anchliya",
+    "Group": "Slot 8"
   },
   {
-    "name": "Soham Patil"
+    "name": "Aniket Singh",
+    "Group": "Slot 8"
   },
   {
-    "name": "Soham Pinglikar"
+    "name": "Ashish Joshi ",
+    "Group": "Slot 8"
   },
   {
-    "name": "Stuti"
+    "name": "Harshit Bhageria",
+    "Group": "Slot 8"
   },
   {
-    "name": "Utkarsh Sarin"
+    "name": "Manas kalangan",
+    "Group": "Slot 8"
   },
   {
-    "name": "Vedant Bhonde"
+    "name": "Neel Rane",
+    "Group": "Slot 8"
   },
   {
-    "name": "Vedant karle"
+    "name": "Abhay Rana",
+    "Group": "Slot 9"
   },
   {
-    "name": "Viren Patel"
+    "name": "Aditya Choudhary",
+    "Group": "Slot 9"
   },
   {
-    "name": "Aayushi lilha"
+    "name": "Aditya Konnur ",
+    "Group": "Slot 9"
   },
   {
-    "name": "ABDULAHAD SAYYAD"
+    "name": "Aishwary",
+    "Group": "Slot 9"
   },
   {
-    "name": "Abhay Rana"
+    "name": "Ayush Gour",
+    "Group": "Slot 9"
   },
   {
-    "name": "Aditya Choudhary"
+    "name": "mustansir",
+    "Group": "Slot 9"
   },
   {
-    "name": "Aditya Konnur "
+    "name": "Disha Gidwani",
+    "Group": "Slot 9"
   },
   {
-    "name": "Aishwary"
+    "name": "Aayushi lilha",
+    "Group": "Slot 9"
   },
   {
-    "name": "Anand Rituraj"
+    "name": "Malhar Dhawle",
+    "Group": "Slot 9"
   },
   {
-    "name": "Ayush Gour"
+    "name": "Mayannk Kumar Singh",
+    "Group": "Slot 9"
   },
   {
-    "name": "Disha Gidwani"
+    "name": "Mitali Jain ",
+    "Group": "Slot 9"
   },
   {
-    "name": "Luvkumar Sharma"
+    "name": "Parth Zile",
+    "Group": "Slot 9"
   },
   {
-    "name": "Luvkumar Sharma"
+    "name": "Prakhar Singh Rajput",
+    "Group": "Slot 9"
   },
   {
-    "name": "Malhar Dhawle"
+    "name": "RAHUL KUMAR ",
+    "Group": "Slot 9"
   },
   {
-    "name": "Mayannk Kumar Singh"
+    "name": "Rohit",
+    "Group": "Slot 9"
   },
   {
-    "name": "Mitali Jain "
+    "name": "ABDULAHAD SAYYAD",
+    "Group": "Slot 9"
   },
   {
-    "name": "mustansir"
+    "name": "Siddhant Bhura ",
+    "Group": "Slot 9"
   },
   {
-    "name": "Parth Zile"
+    "name": "Yash Nawghare",
+    "Group": "Slot 9"
   },
   {
-    "name": "Prakhar Singh Rajput"
+    "name": "Vishwajeet shinde",
+    "Group": "Slot 9"
   },
   {
-    "name": "Pranav patil"
+    "name": "Anand Rituraj",
+    "Group": "Slot 9"
   },
   {
-    "name": "Prathamesh"
+    "name": "Luvkumar Sharma",
+    "Group": "Slot 9"
   },
   {
-    "name": "RAHUL KUMAR "
+    "name": "Pranav patil",
+    "Group": "Slot 9"
   },
   {
-    "name": "Rohit"
+    "name": "Prathamesh",
+    "Group": "Slot 9"
   },
   {
-    "name": "Ruturaj Ashok Desai"
+    "name": "Ruturaj Ashok Desai",
+    "Group": "Slot 9"
   },
   {
-    "name": "Shara"
+    "name": "Shara",
+    "Group": "Slot 9"
   },
   {
-    "name": "SHIVANSH SINHA"
+    "name": "SHIVANSH SINHA",
+    "Group": "Slot 9"
   },
   {
-    "name": "Siddhant Bhura "
-  },
-  {
-    "name": "Uday"
-  },
-  {
-    "name": "Vishwajeet shinde"
-  },
-  {
-    "name": "Yash Nawghare"
+    "name": "Uday",
+    "Group": "Slot 9"
   }
 ]

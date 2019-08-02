@@ -60,24 +60,33 @@ class Slots extends Component {
         <Container className="mt-1">
           <Row className="m-3">
             <Col>
-              <ListGroup style={{ fontWeight: "bold" }}>
+              <ListGroup style={{ textAlign: "center", fontWeight: "bold" }}>
                 <ListGroupItem variant={"warning"}>
-                  If you have registered and do not see your name, please contact us here
-                  <Button type={"button"} size={"sm"} variant={"warning"} className="mx-2"
-                          href="mailto:recruitment@codersera.tech">
+                  If you have registered and do not see your name, please
+                  contact us here
+                  <Button
+                    type={"button"}
+                    size={"sm"}
+                    variant={"warning"}
+                    className="mx-2"
+                    href="mailto:recruitment@codersera.tech"
+                  >
                     Contact
                   </Button>
                 </ListGroupItem>
                 <ListGroupItem variant={"danger"}>
-                  Not all slots have been allotted yet, please check again later
-                  if your slot is not written
+                  If you have missed your slots so far, Friday will be the last
+                  day for first round of interviews
                 </ListGroupItem>
-                <ListGroupItem variant={"info"}>Location is N203</ListGroupItem>
+                <ListGroupItem variant={"info"}>Location is N204</ListGroupItem>
                 <ListGroupItem variant={"primary"}>
-                  Slot 1 - 3:45 - 4:45 PM IST - 30/7/19
+                  Slot 7 - 3:45 - 4:30 PM IST - 2/8/19
                 </ListGroupItem>
                 <ListGroupItem variant={"secondary"}>
-                  Slot 2 - 4:45 - 5:45 PM IST - 30/7/19
+                  Slot 8 - 4:30 - 5:15 PM IST - 2/8/19
+                </ListGroupItem>
+                <ListGroupItem variant="dark">
+                  Slot 9 - 5:15 - 6:00 PM IST - 2/8/19
                 </ListGroupItem>
               </ListGroup>
             </Col>
