@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {BrowserRouter, Redirect, Route, Switch} from "react-router-dom";
+import {HashRouter, Redirect, Route, Switch} from "react-router-dom";
 
 import ProjCard from "./ProjCard/ProjCard";
 import Slots from "./Slots/Slots";
@@ -7,15 +7,16 @@ import Slots from "./Slots/Slots";
 class Rout extends Component {
   render() {
     return (
-        <BrowserRouter>
+        <HashRouter>
         <div>
             <Switch>
                 <Route path="/" component={ProjCard} exact/>
+
                 <Route path="/Slots" component={Slots}/>
                 <Redirect to="/" push/>
             </Switch>
         </div>
-        </BrowserRouter>
+        </HashRouter>
     );
   }
 }
