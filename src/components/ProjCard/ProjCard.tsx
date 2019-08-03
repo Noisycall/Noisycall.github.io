@@ -56,7 +56,7 @@ class ProjCard extends Component {
           </h1>
           <hr/>
 
-          <Button href="#Slots" variant={"outline-info"} size={"lg"}>
+          <Button href="/Slots" variant={"outline-info"} size={"lg"}>
             Recruitment slots
           </Button>
         </Jumbotron>

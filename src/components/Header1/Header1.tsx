@@ -46,8 +46,8 @@ class Header1 extends Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto text-right" id="test">
               {/*<Nav.Item>*/}
-              <Nav.Link href="#/">Home</Nav.Link>
-              <Nav.Link href="#Slots">Recruitment Slots</Nav.Link>
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/Slots">Recruitment Slots</Nav.Link>
               {/*<ButtonGroup vertical={this.state.vertTrue}>
                   <Button href="#/" variant="outline-secondary">
                     Home

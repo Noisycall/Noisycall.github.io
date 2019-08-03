@@ -1,8 +1,8 @@
 {
-  "name": "react-app",
+  "name": "coders-era-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://codersera.tech/home",
+  "homepage": "https://noisycall.github.io/",
   "dependencies": {
     "@researchgate/react-intersection-observer": "^1.0.1",
     "@types/react": "^16.8.24",
