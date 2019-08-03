@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.dbc3bceb.chunk.css",
-    "main.js": "/static/js/main.7b46464c.chunk.js",
-    "main.js.map": "/static/js/main.7b46464c.chunk.js.map",
+    "main.css": "/static/css/main.629d158d.chunk.css",
+    "main.js": "/static/js/main.4ebfb3cd.chunk.js",
+    "main.js.map": "/static/js/main.4ebfb3cd.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.510409cd.chunk.css": "/static/css/2.510409cd.chunk.css",
-    "static/js/2.e4b543ae.chunk.js": "/static/js/2.e4b543ae.chunk.js",
-    "static/js/2.e4b543ae.chunk.js.map": "/static/js/2.e4b543ae.chunk.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.e32fa6fc.chunk.js": "/static/js/2.e32fa6fc.chunk.js",
+    "static/js/2.e32fa6fc.chunk.js.map": "/static/js/2.e32fa6fc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.df93e9f0f13a87d45976c03095fe46c1.js": "/precache-manifest.df93e9f0f13a87d45976c03095fe46c1.js",
+    "precache-manifest.b149d71dab6cab8a4ebb5b2a73793550.js": "/precache-manifest.b149d71dab6cab8a4ebb5b2a73793550.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.510409cd.chunk.css.map": "/static/css/2.510409cd.chunk.css.map",
-    "static/css/main.dbc3bceb.chunk.css.map": "/static/css/main.dbc3bceb.chunk.css.map"
+    "static/css/2.22a7d4ef.chunk.css.map": "/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.629d158d.chunk.css.map": "/static/css/main.629d158d.chunk.css.map",
+    "static/media/App1.png": "/static/media/App1.0961f857.png",
+    "static/media/App2.png": "/static/media/App2.55a60b13.png",
+    "static/media/App3.png": "/static/media/App3.615a94d1.png",
+    "static/media/App4.png": "/static/media/App4.c084a890.png",
+    "static/media/PWA1.png": "/static/media/PWA1.ce2d1259.png",
+    "static/media/PWA2.png": "/static/media/PWA2.b26a8db2.png",
+    "static/media/PWA3.png": "/static/media/PWA3.bcd406f3.png",
+    "static/media/codersera.png": "/static/media/codersera.35fc952a.png"
   }
 }
