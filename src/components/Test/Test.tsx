@@ -4,7 +4,7 @@ class Test extends Component {
     state = {users: []};
 
     componentDidMount(): void {
-        fetch("/users")
+        fetch("http://192.168.1.8:3001/users")
             .then(res => res.json())
             .then(users => this.setState({users}));
     }

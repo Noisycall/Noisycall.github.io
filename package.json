@@ -2,10 +2,8 @@
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001",
   "homepage": "http://codersera.tech/home",
   "dependencies": {
-    "@researchgate/react-intersection-observer": "^1.0.1",
     "@types/react": "^16.8.24",
     "bootstrap": "^4.3.1",
     "bs-breakpoints": "^1.1.1",
