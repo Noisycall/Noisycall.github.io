@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -25,7 +25,7 @@ class Slots extends Component {
   handleInput = () => {
     // @ts-ignore
     const searchval = document.getElementById("hello").value;
-    this.state.searchval = searchval;
+    this.setState({searchval});
     console.log(this.state.searchval);
     let subset = slot1.filter((person: any) => {
       let na = person.name;

@@ -3,6 +3,7 @@ import {HashRouter, Redirect, Route, Switch} from "react-router-dom";
 
 import ProjCard from "./ProjCard/ProjCard";
 import Slots from "./Slots/Slots";
+import Test from "./Test/Test";
 
 class Rout extends Component {
   render() {
@@ -11,7 +12,7 @@ class Rout extends Component {
         <div>
             <Switch>
                 <Route path="/" component={ProjCard} exact/>
-
+                <Route path="/users" component={Test}/>
                 <Route path="/Slots" component={Slots}/>
                 <Redirect to="/" push/>
             </Switch>

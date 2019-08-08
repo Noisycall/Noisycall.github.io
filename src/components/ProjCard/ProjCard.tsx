@@ -23,10 +23,10 @@ class ProjCard extends Component {
     threshold: 0
   };
 
-  handleEnter = (event: any) => {
+  handleEnter = (inView: boolean, event: IntersectionObserverEntry) => {
     this.setState(() => {
       let exampleobj = {
-        lowervisible: event.isIntersecting ? "fado" : "invisible"
+        lowervisible: inView ? "fado" : "invisible"
       };
       console.log(event.isIntersecting);
       return exampleobj;
@@ -50,7 +50,7 @@ class ProjCard extends Component {
     | undefined {
     return (
       <div>
-        <Jumbotron style={{textAlign: "center"}}>
+        <Jumbotron id="headerJ" style={{textAlign: "center"}}>
           <h1>
             Welcome to Coder's Era, a place for programmers to learn and succeed
           </h1>
@@ -144,8 +144,8 @@ class ProjCard extends Component {
                 experience making Android Apps for the last 3 years. He has a
                 talent for picking the best people to work with and will go
                 sleepless in his quest to deliver as many features as possible
-                to the users of his apps. You might be familiar with his work in
-                the form of the MIT Student Console App Console.
+                to the users of his apps. You might be familiar with his work
+                in the form of the MIT Student Console App Console.
                 <Button
                     className="mt-md-1 mt-2"
                     href={"mailto:harsh@codersera.tech"}
@@ -161,11 +161,11 @@ class ProjCard extends Component {
                 <b>Manas</b>
               </Card.Header>
               <Card.Body className="d-flex flex-column justify-content-between text-center">
-                A Programmer to his core, Manas has worked at more PHP code than
-                I would even care to look at, but his importance in building
-                reliable backends cannot be understated. He is also the primary
-                developer of the MIT PWA as well as a Co-Developer on the MIT
-                Student Console App.
+                A Programmer to his core, Manas has worked at more PHP code
+                than I would even care to look at, but his importance in
+                building reliable backends cannot be understated. He is also
+                the primary developer of the MIT PWA as well as a Co-Developer
+                on the MIT Student Console App.
                 <Button
                     className="mt-md-0 mt-2"
                     href={"mailto:manas@codersera.tech"}
@@ -196,6 +196,7 @@ class ProjCard extends Component {
             </Card>
           </CardDeck>
         </Jumbotron>
+
       </div>
     );
   }
