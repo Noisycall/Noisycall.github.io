@@ -66,7 +66,12 @@ class Slots extends Component {
                   If your name is not on the list but you have given the first
                   round of Interview, fear not. The introductory course will
                   begin on Monday. More details
-                  <Button variant="info" className="ml-3" size={"sm"} href="#Courses">
+                  <Button
+                    variant="info"
+                    className="ml-3"
+                    size={"sm"}
+                    href="#Courses"
+                  >
                     Here
                   </Button>
                 </ListGroupItem>
