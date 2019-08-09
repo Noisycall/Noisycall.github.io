@@ -65,15 +65,16 @@ class Slots extends Component {
                 <ListGroupItem variant={"secondary"}>
                   If your name is not on the list but you have given the first
                   round of Interview, fear not. The introductory course will
-                  begin on Monday. More details
+                  begin on Monday.{/* More details
                   <Button
                     variant="info"
                     className="ml-3"
                     size={"sm"}
+                    style = {{color: "#000"}}
                     href="#Courses"
                   >
                     Here
-                  </Button>
+                  </Button>*/}
                 </ListGroupItem>
                 <ListGroupItem variant={"info"}>
                   An introductory meeting will be held on 12th August, 3:30 PM
