@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import slot1 from "./codebeautify.json";
+import slot1 from "./selected.json";
 import Table from "react-bootstrap/Table";
 import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
@@ -17,26 +17,24 @@ class Slots extends Component {
   testmap = slot1.map((person, index) => (
     <tr>
       <td>{index + 1}</td>
-      <td>{person.name}</td>
-      <td>{person.Group}</td>
+      <td>{person.Name}</td>
     </tr>
   ));
 
   handleInput = () => {
     // @ts-ignore
     const searchval = document.getElementById("hello").value;
-    this.state.searchval = searchval;
+    this.setState({ searchval });
     console.log(this.state.searchval);
     let subset = slot1.filter((person: any) => {
-      let na = person.name;
+      let na = person.Name;
       return na.toLowerCase().indexOf(this.state.searchval.toLowerCase()) >= 0;
     });
 
     let testmap = subset.map((person, index) => (
       <tr>
         <td>{index + 1}</td>
-        <td>{person.name}</td>
-        <td>{person.Group}</td>
+        <td>{person.Name}</td>
       </tr>
     ));
     this.setState({ testmap });
@@ -61,41 +59,24 @@ class Slots extends Component {
           <Row className="m-3">
             <Col>
               <ListGroup style={{ textAlign: "center", fontWeight: "bold" }}>
-                <ListGroupItem variant={"warning"}>
-                  If you have registered and do not see your name, please
-                  contact us here
-                  <Button
-                    type={"button"}
-                    size={"sm"}
-                    variant={"warning"}
-                    className="mx-2"
-                    href="mailto:recruitment@codersera.tech"
-                  >
-                    Contact
-                  </Button>
-                </ListGroupItem>
-                <ListGroupItem variant={"danger"}>
-                  If you have missed your slots so far, Friday will be the last
-                  day for first round of interviews
-                </ListGroupItem>
-                <ListGroupItem variant={"info"}>Location is N204</ListGroupItem>
-                <ListGroupItem variant={"primary"}>
-                  Slot 7 - 3:45 - 4:30 PM IST - 2/8/19
+                <ListGroupItem variant={"success"}>
+                  Congratulations! You have been selected for Coders Era
                 </ListGroupItem>
                 <ListGroupItem variant={"secondary"}>
-                  Slot 8 - 4:30 - 5:15 PM IST - 2/8/19
+                  If your name is not on the list but you have given the first
+                  round of Interview, fear not. The introductory course will
+                  begin on Monday. More details
+                  <Button variant="info" className="ml-3" size={"sm"} href="#Courses">
+                    Here
+                  </Button>
                 </ListGroupItem>
-                <ListGroupItem variant="dark">
-                  Slot 9 - 5:15 - 6:00 PM IST - 2/8/19
+                <ListGroupItem variant={"info"}>
+                  An introductory meeting will be held on 12th August, 3:30 PM
+                  in N204, N building, MIT WPU.
                 </ListGroupItem>
               </ListGroup>
             </Col>
           </Row>
-          {/*<Row>
-            <Col className={"text-center"}>
-              <h3> Search your name is the given field to find your slot</h3>
-            </Col>
-          </Row>*/}
           <Row>
             <Col>
               <Form>
@@ -117,7 +98,6 @@ class Slots extends Component {
                   <tr>
                     <th>#</th>
                     <th>Name</th>
-                    <th>Slot</th>
                   </tr>
                 </thead>
                 <tbody>{this.state.testmap}</tbody>
