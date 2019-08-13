@@ -8,11 +8,21 @@ import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
+import ModalHeader from "react-bootstrap/ModalHeader";
+import ModalBody from "react-bootstrap/ModalBody";
 
 class Slots extends Component {
   state = {
     searchval: "",
-    testmap: undefined
+    testmap: undefined,
+    show: false
+  };
+  handleClick = () => {
+    this.setState({ show: true });
+  };
+  handleClose = () => {
+    this.setState({ show: false });
   };
   testmap = slot1.map((person, index) => (
     <tr>
@@ -55,6 +65,37 @@ class Slots extends Component {
     | undefined {
     return (
       <div>
+        <Modal show={this.state.show} onHide={this.handleClose}>
+
+          <ModalHeader closeButton>
+            <Modal.Title>Lecture Info</Modal.Title>
+          </ModalHeader>
+          <ModalBody>
+            <p>Details:</p>
+
+            <p>Venue: N204, N building (ENTC Main)</p>
+
+            <p>
+              12th August 2019, Monday - 4:00 pm to 5:30 pm
+              <br/>
+              13th August 2019, Tuesday - 3:45 pm to 5:15 pm
+              <br/>
+              14th August 2019, Wednesday - 3:45 pm to 5:15 pm
+            </p>
+
+            <p>
+              Here we will teach you all the required basics and
+              based on the commitment and potential you show, you
+              will be selected in the club.
+            </p>
+
+            <p>
+              If you wish to join the club, attending this workshop
+              is mandatory!
+            </p>
+          </ModalBody>
+
+        </Modal>
         <Container className="mt-1">
           <Row className="m-3">
             <Col>
@@ -65,16 +106,17 @@ class Slots extends Component {
                 <ListGroupItem variant={"secondary"}>
                   If your name is not on the list but you have given the first
                   round of Interview, fear not. The introductory course will
-                  begin on Monday.{/* More details
+                  begin on Monday. More details
                   <Button
                     variant="info"
                     className="ml-3"
                     size={"sm"}
-                    style = {{color: "#000"}}
-                    href="#Courses"
+                    style={{ color: "#000" }}
+                    onClick={this.handleClick}
                   >
                     Here
-                  </Button>*/}
+                  </Button>
+
                 </ListGroupItem>
                 <ListGroupItem variant={"info"}>
                   An introductory meeting will be held on 12th August, 3:30 PM
