@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, SyntheticEvent } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -24,18 +24,12 @@ class Slots extends Component {
   handleClose = () => {
     this.setState({ show: false });
   };
-  testmap = slot1.map((person, index) => (
-    <tr>
-      <td>{index + 1}</td>
-      <td>{person.Name}</td>
-    </tr>
-  ));
 
-  handleInput = () => {
+  handleInput = (event: SyntheticEvent) => {
     // @ts-ignore
-    const searchval = document.getElementById("hello").value;
+    const searchval = event.target.value;
     this.setState({ searchval });
-    console.log(this.state.searchval);
+    //console.log(this.state.searchval);
     let subset = slot1.filter((person: any) => {
       let na = person.Name;
       return na.toLowerCase().indexOf(this.state.searchval.toLowerCase()) >= 0;
@@ -50,7 +44,13 @@ class Slots extends Component {
     this.setState({ testmap });
   };
   componentDidMount(): void {
-    this.handleInput();
+    let testmap = slot1.map((person, index) => (
+      <tr>
+        <td>{index + 1}</td>
+        <td>{person.Name}</td>
+      </tr>
+    ));
+    this.setState({ testmap });
   }
 
   render():
@@ -66,7 +66,6 @@ class Slots extends Component {
     return (
       <div>
         <Modal show={this.state.show} onHide={this.handleClose}>
-
           <ModalHeader closeButton>
             <Modal.Title>Lecture Info</Modal.Title>
           </ModalHeader>
@@ -84,17 +83,16 @@ class Slots extends Component {
             </p>
 
             <p>
-              Here we will teach you all the required basics and
-              based on the commitment and potential you show, you
-              will be selected in the club.
+              Here we will teach you all the required basics and based on the
+              commitment and potential you show, you will be selected in the
+              club.
             </p>
 
             <p>
-              If you wish to join the club, attending this workshop
-              is mandatory!
+              If you wish to join the club, attending this workshop is
+              mandatory!
             </p>
           </ModalBody>
-
         </Modal>
         <Container className="mt-1">
           <Row className="m-3">
@@ -116,7 +114,6 @@ class Slots extends Component {
                   >
                     Here
                   </Button>
-
                 </ListGroupItem>
                 <ListGroupItem variant={"info"}>
                   An introductory meeting will be held on 12th August, 3:30 PM
