@@ -47,35 +47,9 @@ class Header1 extends Component {
             <Nav className="ml-auto text-right" id="test">
               {/*<Nav.Item>*/}
                 <Nav.Link href="#/">Home</Nav.Link>
-                <Nav.Link href="#Slots">Recruitment Slots</Nav.Link>
-              {/*<ButtonGroup vertical={this.state.vertTrue}>
-                  <Button href="#/" variant="outline-secondary">
-                    Home
-                  </Button>
-                  <Button variant="outline-secondary" href="http://codersera.tech/recruitment">
-                    Recruitment
-                  </Button>
-                </ButtonGroup>*/}
-              {/*</Nav.Item>*/}
-
-              {/*<NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>*/}
+              <Nav.Link href="#/Slots">Recruitment Slots</Nav.Link>
+              <Nav.Link href="#/Events">Events</Nav.Link>
             </Nav>
-            {/*<Form inline>
-                      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                      <Button variant="outline-success">Search</Button>
-                  </Form>*/}
           </Navbar.Collapse>
         </Navbar>
       </div>
