@@ -35,8 +35,3 @@ code {
   }
 }
 
-@media screen and (max-width: 992px) {
-  .border-right {
-    border: 0 transparent !important;
-  }
-}
