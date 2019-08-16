@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -50,13 +50,13 @@ class ProjCard extends Component {
     | undefined {
     return (
       <div>
-        <Jumbotron id="headerJ" style={{textAlign: "center"}}>
+        <Jumbotron id="headerJ" style={{ textAlign: "center" }}>
           <h1>
             Welcome to Coder's Era, a place for programmers to learn and succeed
           </h1>
-          <hr/>
+          <hr />
 
-          <Button href="#Slots" variant={"outline-info"} size={"lg"}>
+          <Button href="/Slots" variant={"outline-info"} size={"lg"}>
             Recruitment slots
           </Button>
         </Jumbotron>
@@ -76,7 +76,7 @@ class ProjCard extends Component {
                   <hr />
                   <Carousel>
                     {this.Appimages.map((image, index) => (
-                        <CarouselItem key={index}>
+                      <CarouselItem key={index}>
                         <img src={image} className="img-fluid" alt={image} />
                       </CarouselItem>
                     ))}
@@ -108,7 +108,7 @@ class ProjCard extends Component {
                   <hr />
                   <Carousel>
                     {this.images.map((image, index) => (
-                        <CarouselItem key={index}>
+                      <CarouselItem key={index}>
                         <img src={image} className="img-fluid" alt={image} />
                       </CarouselItem>
                     ))}
@@ -132,8 +132,8 @@ class ProjCard extends Component {
 
         <Jumbotron id="lower" className={this.state.lowervisible}>
           <h2 className="text-center">About Us</h2>
-          <br/>
-          <CardDeck style={{fontFamily: "Verdana", fontSize: "14"}}>
+          <br />
+          <CardDeck style={{ fontFamily: "Verdana", fontSize: "14" }}>
             <Card>
               <Card.Header>
                 <b>Harsh (Founder)</b>
@@ -144,13 +144,13 @@ class ProjCard extends Component {
                 experience making Android Apps for the last 3 years. He has a
                 talent for picking the best people to work with and will go
                 sleepless in his quest to deliver as many features as possible
-                to the users of his apps. You might be familiar with his work
-                in the form of the MIT Student Console App Console.
+                to the users of his apps. You might be familiar with his work in
+                the form of the MIT Student Console App Console.
                 <Button
-                    className="mt-md-1 mt-2"
-                    href={"mailto:harsh@codersera.tech"}
-                    block={true}
-                    variant={"primary"}
+                  className="mt-md-1 mt-2"
+                  href={"mailto:harsh@codersera.tech"}
+                  block={true}
+                  variant={"primary"}
                 >
                   Email
                 </Button>
@@ -161,16 +161,16 @@ class ProjCard extends Component {
                 <b>Manas</b>
               </Card.Header>
               <Card.Body className="d-flex flex-column justify-content-between text-center">
-                A Programmer to his core, Manas has worked at more PHP code
-                than I would even care to look at, but his importance in
-                building reliable backends cannot be understated. He is also
-                the primary developer of the MIT PWA as well as a Co-Developer
-                on the MIT Student Console App.
+                A Programmer to his core, Manas has worked at more PHP code than
+                I would even care to look at, but his importance in building
+                reliable backends cannot be understated. He is also the primary
+                developer of the MIT PWA as well as a Co-Developer on the MIT
+                Student Console App.
                 <Button
-                    className="mt-md-0 mt-2"
-                    href={"mailto:manas@codersera.tech"}
-                    block={true}
-                    variant={"primary"}
+                  className="mt-md-0 mt-2"
+                  href={"mailto:manas@codersera.tech"}
+                  block={true}
+                  variant={"primary"}
                 >
                   Email
                 </Button>
@@ -185,10 +185,10 @@ class ProjCard extends Component {
                 like it I'm sorry to disappoint you ☹️. However, if you liked
                 it, please let me know at the linked email 😃.
                 <Button
-                    className="mt-md-0 mt-2"
-                    href={"mailto:kunal@codersera.tech"}
-                    block={true}
-                    variant={"primary"}
+                  className="mt-md-0 mt-2"
+                  href={"mailto:kunal@codersera.tech"}
+                  block={true}
+                  variant={"primary"}
                 >
                   Email
                 </Button>
@@ -196,7 +196,6 @@ class ProjCard extends Component {
             </Card>
           </CardDeck>
         </Jumbotron>
-
       </div>
     );
   }

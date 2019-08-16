@@ -3,7 +3,6 @@ import Accordion from "react-bootstrap/Accordion";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Orientation from "./Orientation/Orientation";
-import "./buttonStyle.css";
 import Scratch from "./Scratch/Scratch";
 
 class Events extends Component {

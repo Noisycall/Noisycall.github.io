@@ -28,20 +28,33 @@ class Slots extends Component {
   handleInput = (event: SyntheticEvent) => {
     // @ts-ignore
     const searchval = event.target.value;
-    this.setState({ searchval });
-    //console.log(this.state.searchval);
-    let subset = slot1.filter((person: any) => {
-      let na = person.Name;
-      return na.toLowerCase().indexOf(this.state.searchval.toLowerCase()) >= 0;
-    });
+    console.log(searchval);
+    if (searchval !== "") {
+      this.setState({ searchval });
+      //console.log(this.state.searchval);
+      let subset = slot1.filter((person: any) => {
+        let na = person.Name;
+        return (
+          na.toLowerCase().indexOf(this.state.searchval.toLowerCase()) >= 0
+        );
+      });
 
-    let testmap = subset.map((person, index) => (
-      <tr>
-        <td>{index + 1}</td>
-        <td>{person.Name}</td>
-      </tr>
-    ));
-    this.setState({ testmap });
+      let testmap = subset.map((person, index) => (
+        <tr>
+          <td>{index + 1}</td>
+          <td>{person.Name}</td>
+        </tr>
+      ));
+      this.setState({ testmap });
+    } else {
+      let testmap = slot1.map((person, index) => (
+        <tr>
+          <td>{index + 1}</td>
+          <td>{person.Name}</td>
+        </tr>
+      ));
+      this.setState({ testmap });
+    }
   };
   componentDidMount(): void {
     let testmap = slot1.map((person, index) => (
@@ -76,9 +89,9 @@ class Slots extends Component {
 
             <p>
               12th August 2019, Monday - 4:00 pm to 5:30 pm
-              <br/>
+              <br />
               13th August 2019, Tuesday - 3:45 pm to 5:15 pm
-              <br/>
+              <br />
               14th August 2019, Wednesday - 3:45 pm to 5:15 pm
             </p>
 
@@ -127,7 +140,6 @@ class Slots extends Component {
               <Form>
                 <Form.Group controlId="formName">
                   <Form.Control
-                    id="hello"
                     as="input"
                     placeholder="Enter Your Name"
                     onChange={this.handleInput}
