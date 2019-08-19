@@ -28,7 +28,7 @@ class Scratch extends Component {
         <Row>
           {imgs.slice(0, 3).map((image: any, index: number) => {
             return (
-              <Col lg className="my-2">
+              <Col lg className="my-2" key={index}>
                 <ResponsiveEmbed aspectRatio="4by3">
                   <img
                     srcSet={`${imgwebp[index]} 1x,${image} 1x`}
@@ -42,7 +42,7 @@ class Scratch extends Component {
         <Row>
           {imgs.slice(3, 6).map((image: any, index: number) => {
             return (
-              <Col lg className="my-1">
+              <Col lg className="my-1" key={index}>
                 <ResponsiveEmbed aspectRatio="4by3">
                   <img
                     srcSet={`${imgwebp[index + 3]} 1x,${image} 1x`}

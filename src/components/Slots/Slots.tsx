@@ -40,7 +40,7 @@ class Slots extends Component {
       });
 
       let testmap = subset.map((person, index) => (
-        <tr>
+        <tr key={index}>
           <td>{index + 1}</td>
           <td>{person.Name}</td>
         </tr>
@@ -48,7 +48,7 @@ class Slots extends Component {
       this.setState({ testmap });
     } else {
       let testmap = slot1.map((person, index) => (
-        <tr>
+        <tr key={index}>
           <td>{index + 1}</td>
           <td>{person.Name}</td>
         </tr>
@@ -58,7 +58,7 @@ class Slots extends Component {
   };
   componentDidMount(): void {
     let testmap = slot1.map((person, index) => (
-      <tr>
+      <tr key={index}>
         <td>{index + 1}</td>
         <td>{person.Name}</td>
       </tr>
