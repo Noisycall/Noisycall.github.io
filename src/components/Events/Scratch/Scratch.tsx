@@ -8,8 +8,10 @@ function importAll(r: any) {
   return r.keys().map(r);
 }
 // @ts-ignore
-const imgs = importAll(require.context("./imgs", false, /\.(png|jpe?g|svg)$/));
-console.log(imgs);
+const imgs = importAll(require.context("./imgs", false, /\.(png|jpe?g)$/));
+// @ts-ignore
+const imgwebp = importAll(require.context("./imgs", false, /\.(webp)$/));
+console.log(imgwebp);
 class Scratch extends Component {
   render():
     | React.ReactElement<any, string | React.JSXElementConstructor<any>>
@@ -24,22 +26,28 @@ class Scratch extends Component {
     return (
       <Container fluid={true}>
         <Row>
-          {imgs.slice(0, 3).map((image: any) => {
+          {imgs.slice(0, 3).map((image: any, index: number) => {
             return (
               <Col lg className="my-2">
-                <ResponsiveEmbed aspectRatio="4by3" typeof="image/jpg">
-                  <img src={image} alt={image} />
+                <ResponsiveEmbed aspectRatio="4by3">
+                  <img
+                    srcSet={`${imgwebp[index]} 1x,${image} 1x`}
+                    alt={image}
+                  />
                 </ResponsiveEmbed>
               </Col>
             );
           })}
         </Row>
         <Row>
-          {imgs.slice(4, 7).map((image: any) => {
+          {imgs.slice(3, 6).map((image: any, index: number) => {
             return (
               <Col lg className="my-1">
-                <ResponsiveEmbed aspectRatio="4by3" typeof="image/jpg">
-                  <img src={image} alt={image} />
+                <ResponsiveEmbed aspectRatio="4by3">
+                  <img
+                    srcSet={`${imgwebp[index + 3]} 1x,${image} 1x`}
+                    alt={`${imgwebp[index + 3]}`}
+                  />
                 </ResponsiveEmbed>
               </Col>
             );
