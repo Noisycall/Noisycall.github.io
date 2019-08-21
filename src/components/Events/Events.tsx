@@ -5,14 +5,7 @@ import Card from "react-bootstrap/Card";
 import Orientation from "./Orientation/Orientation";
 import Scratch from "./Scratch/Scratch";
 import ResponsiveEmbed from "react-bootstrap/ResponsiveEmbed";
-import Container from "react-bootstrap/Container";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
-import BM from "./BM_Patil_Sir.jpg";
-import PP from "./P_Purnaye_sir.jpg";
-import Figure from "react-bootstrap/Figure";
-import FigureCaption from "react-bootstrap/FigureCaption";
-import Image from "react-bootstrap/Image";
+import Level1 from "./Level1/Level1";
 
 class Events extends Component {
   render():
@@ -41,34 +34,7 @@ class Events extends Component {
             </Card.Header>
             <Accordion.Collapse eventKey="3">
               <Card.Body className="text-center">
-                <h3>
-                  Test your coding skills in the newly launched Competitive
-                  Coding Series
-                </h3>
-                <Container>
-                  <Row>
-                    <Col>Headed by-</Col>
-                  </Row>
-                  <Row>
-                    <Col className="m-auto">
-                      <a href="https://mitwpu.edu.in/k-Teacher/balaji-patil/">
-                        {" "}
-                        <Figure>
-                          <Image src={BM} />
-                          <FigureCaption>BM Patil Sir</FigureCaption>
-                        </Figure>
-                      </a>
-                    </Col>
-                    <Col className="m-auto">
-                      <a href="https://mitwpu.edu.in/k-Teacher/prasad-purnaye/">
-                        <Figure>
-                          <Image src={PP} />
-                          <FigureCaption>Prasad Puryane Sir</FigureCaption>
-                        </Figure>
-                      </a>
-                    </Col>
-                  </Row>
-                </Container>
+                <Level1 />
               </Card.Body>
             </Accordion.Collapse>
           </Card>
