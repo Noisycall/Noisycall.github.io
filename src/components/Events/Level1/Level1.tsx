@@ -8,6 +8,9 @@ import BM from "./BM_Patil_Sir.jpg";
 import FigureCaption from "react-bootstrap/FigureCaption";
 import PP from "./P_Purnaye_sir.jpg";
 import Button from "react-bootstrap/Button";
+import Alert from "react-bootstrap/Alert";
+// @ts-ignore
+import ek from "./Eklavya.pdf";
 
 class Level1 extends Component {
   render():
@@ -24,53 +27,55 @@ class Level1 extends Component {
       <Container>
         <Row>
           <Col>
-            <h3>
-              Test your coding skills in the newly launched Competitive Coding
-              Series
-            </h3>
-          </Col>
-        </Row>
-        <Row>
-          <Col>Headed by-</Col>
-        </Row>
-        <Row>
-          <Col className="m-auto">
-            <a href="https://mitwpu.edu.in/k-Teacher/balaji-patil/">
-              {" "}
-              <Figure>
-                <Image src={BM} />
-                <FigureCaption>BM Patil Sir</FigureCaption>
-              </Figure>
-            </a>
-          </Col>
-          <Col className="m-auto">
-            <a href="https://mitwpu.edu.in/k-Teacher/prasad-purnaye/">
-              <Figure>
-                <Image src={PP} />
-                <FigureCaption>Prasad Puryane Sir</FigureCaption>
-              </Figure>
-            </a>
+            <Alert variant="dark" className="font-weight-bold">
+              <Alert.Heading>
+                Test your coding skills in the newly launched Competitive Coding
+                Series
+              </Alert.Heading>
+            </Alert>
           </Col>
         </Row>
         <Row>
           <Col>
-            {/*<ResponsiveEmbed>
-              <iframe
-                src="https://docs.google.com/forms/d/e/1FAIpQLScIiNLhGjpNZ1zRmWCmNyo8V-BOdWhVNqNfks4TBZQmgFLqMA/viewform?embedded=true"
-                width="640"
-                height="729"
-              >
-                Loading…
-              </iframe>
-            </ResponsiveEmbed>*/}
+            <Button href={ek} className="my-2" block size="lg">
+              Read the details here
+            </Button>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col>
             <Button
               variant="success"
               block
+              className="my-2"
               type="button"
-              href="https://codersera.tech/Level1"
+              href="https://codersera.tech/eklavya"
+              size="lg"
             >
-              <h3>Fill The form here</h3>
+              Fill The form here
             </Button>
+          </Col>
+        </Row>
+        <Row>
+          <Col>Headed By-</Col>
+        </Row>
+        <Row>
+          <Col md>
+            <a href="https://mitwpu.edu.in/k-Teacher/balaji-patil/">
+              <Figure>
+                <Image src={BM} width="50%" />
+                <FigureCaption>BM Patil Sir</FigureCaption>
+              </Figure>
+            </a>
+          </Col>
+          <Col md>
+            <a href="https://mitwpu.edu.in/k-Teacher/prasad-purnaye/">
+              <Figure>
+                <Image width="50%" src={PP} />
+                <FigureCaption>Prasad Purnaye Sir</FigureCaption>
+              </Figure>
+            </a>
           </Col>
         </Row>
       </Container>

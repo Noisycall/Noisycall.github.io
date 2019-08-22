@@ -29,7 +29,7 @@ class Events extends Component {
                 style={{ width: "300px" }}
                 eventKey="3"
               >
-                Level 1
+                Eklavya
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="3">
