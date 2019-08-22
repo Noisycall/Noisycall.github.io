@@ -55,9 +55,19 @@ class ProjCard extends Component {
             Welcome to Coder's Era, a place for programmers to learn and succeed
           </h1>
           <hr />
+          <h3>Click the button to get registered for our Coding competition</h3>
+          <hr />
 
-          <Button href="/Slots" variant={"outline-info"} size={"lg"}>
-            Recruitment slots
+          <Button
+            href="https://codersera.tech/eklavya"
+            variant={"outline-warning"}
+            size={"lg"}
+            className="mr-2"
+          >
+            Eklavya
+          </Button>
+          <Button href="/home/Events" variant={"outline-info"} size={"lg"}>
+            Details
           </Button>
         </Jumbotron>
         <Container fluid className="mb-5 mb-lg-3">
