@@ -1,3 +1,7 @@
-# codersera.tech
+#[CodersEra](https://codersera.tech)
 
-Official Website for Coders Era MIT Pune
+---
+
+##Official Website for Coders Era MIT Pune
+
+---
