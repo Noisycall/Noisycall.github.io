@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 
 class About extends Component {
+  constructor(props: Readonly<{}>) {
+    super(props);
+  }
   render():
     | React.ReactElement<any, string | React.JSXElementConstructor<any>>
     | string
