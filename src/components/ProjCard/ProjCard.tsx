@@ -56,6 +56,8 @@ class ProjCard extends Component {
           </h1>
           <hr />
           <h3>Click the button to get registered for our Coding competition</h3>
+          <br />
+          <h4>Level 1 is currently over, please register only for level 2</h4>
           <hr />
 
           <Button
@@ -66,7 +68,7 @@ class ProjCard extends Component {
           >
             Eklavya
           </Button>
-          <Button href="/home/Events" variant={"outline-info"} size={"lg"}>
+          <Button href="/home/Eklavya" variant={"outline-info"} size={"lg"}>
             Details
           </Button>
         </Jumbotron>
