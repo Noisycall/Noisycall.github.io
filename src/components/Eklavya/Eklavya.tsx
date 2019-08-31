@@ -15,11 +15,11 @@ class Eklavya extends Component {
     return (
       <div>
         <Jumbotron className="text-center">
-          <h2>Eklavya Level 2</h2>
+          <h3 className="display-3">Eklavya Level 2</h3>
         </Jumbotron>
         <Container>
           <Row>
-            <Col style={{ fontFamily: "Verdana" }}>
+            <Col style={{ fontFamily: "Verdana", fontSize: "16" }}>
               <p>
                 A university has only One Auditorium. There is a manager who
                 looks after bookings of the auditorium.

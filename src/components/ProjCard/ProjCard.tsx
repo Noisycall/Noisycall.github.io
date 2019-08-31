@@ -66,10 +66,10 @@ class ProjCard extends Component {
             size={"lg"}
             className="mr-2"
           >
-            Eklavya
+            Register
           </Button>
           <Button href="/home/Eklavya" variant={"outline-info"} size={"lg"}>
-            Details
+            Problem Statement
           </Button>
         </Jumbotron>
         <Container fluid className="mb-5 mb-lg-3">
