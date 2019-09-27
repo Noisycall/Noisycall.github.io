@@ -143,14 +143,24 @@ class ProjCard extends Component {
                 sleepless in his quest to deliver as many features as possible
                 to the users of his apps. You might be familiar with his work in
                 the form of the MIT Student Console App Console.
-                <Button
-                  className="mt-md-1 mt-2"
-                  href={"mailto:harsh@codersera.tech"}
-                  block={true}
-                  variant={"primary"}
-                >
-                  Email
-                </Button>
+                <span className="d-flex justify-content-around">
+                  <Button
+                    className="mt-md-1 mt-2 mr-2"
+                    href={"mailto:harsh@codersera.tech"}
+                    block={true}
+                    variant={"primary"}
+                  >
+                    Email
+                  </Button>
+                  <Button
+                    className="mt-md-0 mt-2"
+                    href="https://codersera.tech/harsh"
+                    block={true}
+                    variant={"primary"}
+                  >
+                    About
+                  </Button>
+                </span>
               </Card.Body>
             </Card>
             <Card>
@@ -163,14 +173,25 @@ class ProjCard extends Component {
                 reliable backends cannot be understated. He is also the primary
                 developer of the MIT PWA as well as a Co-Developer on the MIT
                 Student Console App.
-                <Button
-                  className="mt-md-0 mt-2"
-                  href={"mailto:manas@codersera.tech"}
-                  block={true}
-                  variant={"primary"}
-                >
-                  Email
-                </Button>
+                <span className="justify-content-around d-flex">
+                  {" "}
+                  <Button
+                    className="mt-md-0 mt-2 mr-2"
+                    href={"mailto:manas@codersera.tech"}
+                    block={true}
+                    variant={"primary"}
+                  >
+                    Email
+                  </Button>
+                  <Button
+                    className="mt-md-0 mt-2"
+                    href="https://codersera.tech/manas"
+                    block={true}
+                    variant={"primary"}
+                  >
+                    About
+                  </Button>
+                </span>
               </Card.Body>
             </Card>
             <Card>
@@ -181,14 +202,24 @@ class ProjCard extends Component {
                 Hello, I'm the one who created this website, so if you didn't
                 like it I'm sorry to disappoint you ☹️. However, if you liked
                 it, please let me know at the linked email 😃.
-                <Button
-                  className="mt-md-0 mt-2"
-                  href={"mailto:kunal@codersera.tech"}
-                  block={true}
-                  variant={"primary"}
-                >
-                  Email
-                </Button>
+                <span className="d-flex justify-content-around">
+                  <Button
+                    className="mt-md-0 mt-2 mr-2"
+                    href={"mailto:kunal@codersera.tech"}
+                    variant={"primary"}
+                    block={true}
+                  >
+                    Email
+                  </Button>
+                  <Button
+                    className="mt-md-0 mt-2"
+                    href="https://codersera.tech/kunal"
+                    variant={"primary"}
+                    block={true}
+                  >
+                    About
+                  </Button>
+                </span>
               </Card.Body>
             </Card>
           </CardDeck>
