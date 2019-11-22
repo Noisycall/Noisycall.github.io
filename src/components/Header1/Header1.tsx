@@ -34,7 +34,11 @@ class Header1 extends Component {
               <Nav.Link href="/home/">Home</Nav.Link>
               <Nav.Link href="/home/Slots">Recruitment Slots</Nav.Link>
               <Nav.Link href="/home/Events">Events</Nav.Link>
-              <Nav.Link href="/home/Eklavya">Eklavya</Nav.Link>
+              {/*<Nav.Link href="/home/Eklavya">Eklavya</Nav.Link>*/}
+              <Nav.Link href="/home/Team">Team</Nav.Link>
+              <Nav.Link href="https://codersera.tech/lectures">
+                Lecture
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

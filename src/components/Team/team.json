@@ -1,0 +1,56 @@
+{
+  "team": [
+    {
+      "Name": "Harsh S"
+    },
+    {
+      "Name": "Manas"
+    },
+    {
+      "Name": "Kunal"
+    },
+    {
+      "Name": "Prajol"
+    },
+    {
+      "Name": "Tanishq",
+      "Photo": "Tanishq.jpg",
+      "Description": "Hello, I am Tanishq Varshney, have a good experience of coding, conducting workshops and tutorials and loved to work overnights to learn new things. You can contact to me through linked email."
+    },
+
+    {
+      "Name": "Ambika",
+      "Photo": "Ambika.jpg",
+      "Description": ""
+    },
+
+    {
+      "Name": "Ashwin",
+      "Photo": "Ashwin.jpg",
+      "Description": ""
+    },
+    {
+      "Name": "Kaushiv",
+      "Photo": "Kaushiv.jpg",
+      "Description": ""
+    },
+
+    {
+      "Name": "Shantanu",
+      "Photo": "Shantanu.jpg",
+      "Description": ""
+    },
+
+    {
+      "Name": "Ananya"
+    },
+    {
+      "Name": "Gurleen",
+      "Photo": "Gurleen.jpeg",
+      "Description": ""
+    },
+    {
+      "Name": "Harsh J"
+    }
+  ]
+}

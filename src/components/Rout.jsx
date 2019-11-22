@@ -5,6 +5,7 @@ import ProjCard from "./ProjCard/ProjCard";
 import Slots from "./Slots/Slots";
 import Events from "./Events/Events";
 import Eklavya from "./Eklavya/Eklavya";
+import Team from "./Team/Team";
 
 class Rout extends Component {
   render() {
@@ -15,6 +16,7 @@ class Rout extends Component {
           <Route path="/Slots" component={Slots} />
           <Route path="/Events" component={Events} />
           <Route path="/Eklavya" component={Eklavya} />
+          <Route path="/Team" component={Team} />
           <Redirect to="/" push />
         </Switch>
       </BrowserRouter>
